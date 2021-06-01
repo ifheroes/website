@@ -1,0 +1,12 @@
+#rectangle {
+    width: 459.54px;
+    height: 465px;
+    background: rgba(248,200,34,0.78);
+  }
+  
+  #rectangle3 {
+    width: 459.54px;
+    height: 465px;
+    transform: scaleX(-1);
+  }
+  
