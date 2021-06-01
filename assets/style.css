@@ -1,12 +1,55 @@
-#rectangle {
-    width: 459.54px;
-    height: 465px;
-    background: rgba(248,200,34,0.78);
+html {
+  color: #fff;
+  background-color: #070117;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.yellow-box {
+    width: 300px;
+    height: 165px;
+    border: 20px solid transparent;
+    border-radius: 20px 0px 0px 20px;
+    background: #FFCC1A;
+    z-index: 0;
+    position: absolute;
+    overflow: hidden  ;
+    font-size: medium;
+  }
+
+  .yellow-image {
+    width: 300px;
+    height: 165px;
+    border: 20px solid transparent;
+    border-radius: 0px 20px 20px 0px;
+    z-index: -1;
+    position: absolute;
+
+  }  
+
+  /*GRID SYSTEM*/
+  .box {
+    display: grid;
+    grid-template-columns: 4em 3em;
+    grid-gap: 10px 10em;
   }
   
-  #rectangle3 {
-    width: 459.54px;
-    height: 465px;
-    transform: scaleX(-1);
+  .box :first-child {
+      align-self: center;
+  }
+   
+
+  .box-bigmenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 2em;
   }
   
+  .box-bigmenu :first-child {
+      align-self: center;
+  }  
+
+  /*Horizontal Scroll effect*/
+
+
+
+
