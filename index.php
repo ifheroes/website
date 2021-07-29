@@ -1,28 +1,30 @@
 <html>
-    <head>
-    <link rel="stylesheet" href="./assets/style.css">
-    </head>
-    
-    <body>
 
-    <div class="box-bigmenu">
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
+<head>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+  <div class="box-bigmenu">
+    <div><?php include('./template/menu.box.template.php'); ?></div>
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+      </div>
+      <div class="col">
+        
+      </div>
+      <div class="col">
+        
+      </div>
     </div>
-    <div class="box">
-        <div>
-            <div class="yellow-box">
-                <left>
-                    <h1>HALLO</h1>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                </left>
-            </div>
-        </div>
-        <div>
-            <div class="yellow-image" style="background:url('https://media.discordapp.net/attachments/429020424630829076/784491359272435732/2020-11-21_21.58.50.png') no-repeat center center;">
-            </div>
-        </div>
-    </div>
-    </body>
+  </div>
+
+</body>
+
 </html>
