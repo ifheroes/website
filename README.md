@@ -1,2 +1,2 @@
 # website
-Die offizielle Webseite von Infinityheroes.de
+Entwicklungsbereich für CSS und Styles
