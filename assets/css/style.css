@@ -2,28 +2,30 @@ html {
   color: #fff;
   background-color: #070117;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: radial-gradient( circle 1112px at 51.1% 181.8%,  rgba(0,0,0,1) 40.3%, rgba(105, 24, 116, 0.379) 99.6% );
 }
 
 .yellow-box {
-    width: 300px;
-    height: 165px;
-    border: 20px solid transparent;
-    border-radius: 20px 0px 0px 20px;
-    background: #FFCC1A;
-    z-index: 0;
-    position: absolute;
-    overflow: hidden  ;
-    font-size: medium;
+  width: 300px;
+  height: 165px;
+  border: 20px solid transparent;
+  border-radius: 20px 0px 0px 20px;
+  background: #FFCC1A;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
   }
 
   .yellow-image {
-    width: 300px;
+    width: 500px;
     height: 165px;
     border: 20px solid transparent;
     border-radius: 0px 20px 20px 0px;
     z-index: -1;
     position: absolute;
-
+    display: flex;
+    flex-direction: row;
   }  
 
   /*GRID SYSTEM*/
