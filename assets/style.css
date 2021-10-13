@@ -7,7 +7,7 @@
     /* Background IMAGE */
     @media (prefers-color-scheme: dark) {
         .backgroundUI {
-            background: linear-gradient( rgba(1, 16, 22, 0.541), rgba(6, 6, 7, 0.966)), url('./img/background6.png') no-repeat center center fixed;
+            background:  url('./img/background-default-1.jpg') no-repeat center center fixed;
             background-size: cover;
             color: white;
         }
@@ -15,7 +15,7 @@
     
     @media (prefers-color-scheme: light) {
         .backgroundUI {
-            background: linear-gradient( rgba(3, 46, 68, 0.5), rgba(11, 62, 138, 0.781)), url('./img/background6.png') no-repeat center center fixed;
+            background: url('./img/background-default-1.jpg') no-repeat center center fixed;
             background-size: cover;
             color: white;
         }
