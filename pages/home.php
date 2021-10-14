@@ -11,25 +11,30 @@
     <br>
     <br>
 
-<!-- Zeigt alle User auf Discord  -->   
-<div class="row">
-    <div class="col-sm">
-        <div class="shadow-box">
-            <div class="col-sm">
-                <h3><i class="fab fa-discord"></i> Discord-Server</h3>
-                <br>
-                203 Benutzer Online
+    <!-- Zeigt alle User auf Discord  -->
+    <div class="row">
+        <div class="col-sm">
+            <div class="shadow-box">
+                <div class="col-sm">
+                    <text class="font-color">
+                        <h3><i class="fab fa-discord"></i> Discord-Server</h3>
+                        <br>
+                        203 Benutzer Online
+                    </text>
+                </div>
             </div>
         </div>
-    </div>
 
- <!-- Zeigt Spieler auf MC -->
-    <div class="col-sm">
-        <div class="shadow-box">
-            <div class="col-sm">
-                    <h3><i class="fas fa-cube"></i> Minecraft-Server</h3>
+        <!-- Zeigt Spieler auf MC -->
+        <div class="col-sm">
+            <div class="shadow-box">
+                <div class="col-sm">
+                    <text class="font-color">
+
+                        <h3><i class="fas fa-cube"></i> Minecraft-Server</h3>
                         <br>
-                    20 Benutzer Online
+                        20 Benutzer Online
+                    </text>
                 </div>
             </div>
         </div>
@@ -81,9 +86,6 @@
 <br>
 <div class="bow"></div>
 </div>
-
-<!--*-->
-
 
 
 <!--#####-->

@@ -19,9 +19,9 @@
 // path to your JSON file
 
 // put the content of the file in a variable
-$data = file_get_contents('legal_info.json', true); 
+$data = file_get_contents($json['legal'], true); 
 // JSON decode
 $obj = json_decode($data); 
 // display the name of the first person
-echo $obj[0]->name;
+echo $obj[0]->text;
 ?>

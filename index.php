@@ -31,8 +31,9 @@ $website_url = 'http://localhost/website/';
 <?php
 
 
-include('system/pages.php');
-include('pages/lang/lang.php');
+include('system/pages.php'); /* Alle registrierten PHP dateien */
+include('system/json_files.php'); /* Alle Json Dateien mit Informationen zu webinhalten */
+include('pages/lang/lang.php'); 
 
 ?>
 
