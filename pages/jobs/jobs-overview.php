@@ -1,3 +1,5 @@
+
+
 <body>
     <center>
         <h1 class="font-color">Bewerben</h1>
@@ -5,13 +7,12 @@
     </center>
     <br>
 
-    <?php
-    // put the content of the file in a variable
-    $data = file_get_contents($json['jobs'], true);
-    // JSON decode
-    $obj = json_decode($data);
-    // display the name of the first person
-    echo $obj[1]->title;
-    ?>
-
+   <?php include ('jobs-class.php');?>
+<p>
+    <br>
+    <br>
+<center>
+    <input type="submit" class="btn-grad-top" value="JETZT MITMACHEN" style="color: white; border: none;">
+</center>  
+</p>
 </body>
