@@ -1,6 +1,6 @@
 <?php
 
-$website_url = 'http://localhost/website/';
+$website_url = 'http://chris-workstation/website/';
      
   
 

@@ -37,7 +37,7 @@
     @media (prefers-color-scheme: light) {
         body {
             color: #333;
-            background-color: #fff;
+            background-color: rgb(229, 229, 229);
             font-family: 'Montserrat', sans-serif;
             text-decoration: none;
             scroll-behavior: smooth;
@@ -112,7 +112,7 @@
             width: 100%;
             height: 100px;
             border: solid 10px rgb(255, 255, 255);
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(229, 229, 229);
             border-color: rgb(44 44 44 / 0%) transparent transparent transparent;
             border-radius: 50px 50px 0 0;
         }
@@ -134,7 +134,7 @@
     @media (prefers-color-scheme: dark) {
         .shadow-box {
             border: 30px solid #333;
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(10, 8, 10, 0.205);
             background-color: #333;
             word-break: keep-all;
@@ -148,7 +148,7 @@
         
         .shadow-box:hover {
             border: 30px solid transparent;
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(0, 0, 0, 0.712);
             font-style: normal;
             letter-spacing: -0.025em;
@@ -157,7 +157,7 @@
         @media only screen and (max-width: 900px) {
             .shadow-box {
                 border: 14px solid #333;
-                border-radius: 20px;
+                border-radius: 5px;
                 box-shadow: 0px 3px 34px -12px rgba(17, 15, 17, 0.34);
                 background-color: #333;
                 text-align: center;
@@ -168,7 +168,7 @@
     @media (prefers-color-scheme: light) {
         .shadow-box {
             border: 30px solid #fff;
-            border-radius: 20px;
+            border-radius: 5px;
             -webkit-box-shadow: 0px 3px 34px -12px rgba(140, 123, 140, 0.144);
             box-shadow: 0px 3px 34px -12px rgba(10, 8, 10, 0.849);
             background-color: #fff;
@@ -183,7 +183,7 @@
         
         .shadow-box:hover {
             border: 30px solid transparent;
-            border-radius: 20px;
+            border-radius: 5px;
             -webkit-box-shadow: 0px 3px 34px -12px rgb(112, 97, 112);
             box-shadow: 0px 3px 34px -12px rgba(97, 87, 97, 0.712);
             font-style: normal;
@@ -193,7 +193,7 @@
         @media only screen and (max-width: 900px) {
             .shadow-box {
                 border: 14px solid #fff;
-                border-radius: 20px;
+                border-radius: 5px;
                 box-shadow: 0px 3px 34px -12px rgba(140, 123, 140, 0.34);
                 background-color: #fff;
                 text-align: center;
@@ -205,7 +205,7 @@
     @media (prefers-color-scheme: dark) {
         .shadow-box {
             border: 30px solid #333;
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(10, 8, 10, 0.205);
             background-color: #333;
             word-break: keep-all;
@@ -219,7 +219,7 @@
         
         .shadow-box:hover {
             border: 30px solid transparent;
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(0, 0, 0, 0.712);
             font-style: normal;
             letter-spacing: -0.025em;
@@ -228,7 +228,7 @@
         @media only screen and (max-width: 900px) {
             .shadow-box {
                 border: 14px solid #333;
-                border-radius: 20px;
+                border-radius: 5px;
                 box-shadow: 0px 3px 34px -12px rgba(17, 15, 17, 0.34);
                 background-color: #333;
                 text-align: center;
@@ -239,7 +239,7 @@
     @media (prefers-color-scheme: light) {
         .shadow-box {
             border: 30px solid #fff;
-            border-radius: 20px;
+            border-radius: 5px;
             -webkit-box-shadow: 0px 3px 34px -12px rgba(140, 123, 140, 0.144);
             box-shadow: 0px 3px 34px -12px rgba(10, 8, 10, 0.849);
             background-color: #fff;
@@ -254,7 +254,7 @@
         
         .shadow-box:hover {
             border: 30px solid transparent;
-            border-radius: 20px;
+            border-radius: 5px;
             -webkit-box-shadow: 0px 3px 34px -12px rgb(112, 97, 112);
             box-shadow: 0px 3px 34px -12px rgba(97, 87, 97, 0.712);
             font-style: normal;
@@ -264,7 +264,7 @@
         @media only screen and (max-width: 900px) {
             .shadow-box {
                 border: 14px solid #fff;
-                border-radius: 20px;
+                border-radius: 5px;
                 box-shadow: 0px 3px 34px -12px rgba(140, 123, 140, 0.34);
                 background-color: #fff;
                 text-align: center;
@@ -275,7 +275,7 @@
     @media (prefers-color-scheme: dark) {
         .no-shadow-box {
             border: 30px solid #333;
-            border-radius: 20px;
+            border-radius: 5px;
             background-color: #333;
             word-break: keep-all;
             font-style: normal;
@@ -288,7 +288,7 @@
         
         .no-shadow-box:hover {
             border: 30px solid transparent;
-            border-radius: 20px;
+            border-radius: 5px;
             font-style: normal;
             letter-spacing: -0.025em;
             cursor: pointer;
@@ -296,7 +296,7 @@
         @media only screen and (max-width: 900px) {
             .no-shadow-box {
                 border: 14px solid #333;
-                border-radius: 20px;
+                border-radius: 5px;
                 background-color: #333;
                 text-align: center;
             }
@@ -306,7 +306,7 @@
     @media (prefers-color-scheme: light) {
         .no-shadow-box {
             border: 30px solid #fff;
-            border-radius: 20px;
+            border-radius: 5px;
 
             background-color: #fff;
             word-break: keep-all;
@@ -320,7 +320,7 @@
         
         .no-shadow-box:hover {
             border: 30px solid transparent;
-            border-radius: 20px;
+            border-radius: 5px;
 
             font-style: normal;
             letter-spacing: -0.025em;
@@ -329,7 +329,7 @@
         @media only screen and (max-width: 900px) {
             .no-shadow-box {
                 border: 14px solid #fff;
-                border-radius: 20px;
+                border-radius: 5px;
                 background-color: #fff;
                 text-align: center;
             }
@@ -341,7 +341,7 @@
         .shadow-box-jobs {
             word-break: break-word;
             border: 30px solid #333;
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(10, 8, 10, 0.849);
             background-color: #333;
             color: #fff;
@@ -361,7 +361,7 @@
             .shadow-box-jobs {
                 word-break: keep-all;
                 border: 14px solid #333;
-                border-radius: 20px;
+                border-radius: 5px;
                 box-shadow: 0px 3px 34px -12px rgba(140, 123, 140, 0.34);
                 background-color: #333;
                 text-align: left;
@@ -373,7 +373,7 @@
         .shadow-box-jobs {
             word-break: keep-all;
             border: 30px solid #fff;
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(140, 123, 140, 0.34);
             background-color: #fff;
             word-break: keep-all;
@@ -392,7 +392,7 @@
             .shadow-box-jobs {
                 word-break: keep-all;
                 border: 14px solid #fff;
-                border-radius: 20px;
+                border-radius: 5px;
                 box-shadow: 0px 3px 34px -12px rgba(140, 123, 140, 0.34);
                 background-color: #fff;
                 text-align: left;
@@ -406,7 +406,7 @@
     @media (prefers-color-scheme: dark) {
         .shadow-box-2 {
             border: 30px solid #333;
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(10, 8, 10, 0.849);
             background-color: #333;
             word-break: keep-all;
@@ -429,7 +429,7 @@
         @media only screen and (max-width: 900px) {
             .shadow-box-2 {
                 border: 14px solid #333;
-                border-radius: 20px;
+                border-radius: 5px;
                 box-shadow: 0px 3px 34px -12px rgba(10, 8, 10, 0.849);
                 background-color: #333;
                 text-align: left;
@@ -440,8 +440,8 @@
     @media (prefers-color-scheme: light) {
         .shadow-box-2 {
             border: 30px solid #fff;
-            border-radius: 20px;
-            box-shadow: 0px 3px 34px -12px rgba(48, 43, 48, 0.34);
+            border-radius: 5px;
+            box-shadow: 0px 3px 34px -12px rgba(48, 43, 48, 0.11);
             background-color: #fff;
             word-break: keep-all;
             font-style: normal;
@@ -465,7 +465,7 @@
         @media only screen and (max-width: 900px) {
             .shadow-box-2 {
                 border: 14px solid #fff;
-                border-radius: 20px;
+                border-radius: 5px;
                 box-shadow: 0px 3px 34px -12px rgba(140, 123, 140, 0.34);
                 background-color: #fff;
                 text-align: left;
@@ -475,7 +475,7 @@
         /* Shadow BOX STATS */
     @media (prefers-color-scheme: dark) {
         .shadow-box-stats {
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(10, 8, 10, 0.849);
             word-break: keep-all;
             font-style: normal;
@@ -488,7 +488,7 @@
         
         @media only screen and (max-width: 900px) {
             .shadow-box-stats {
-                border-radius: 20px;
+                border-radius: 5px;
                 box-shadow: 0px 3px 34px -12px rgba(10, 8, 10, 0.849);
                 background-color: #333;
                 text-align: left;
@@ -498,7 +498,7 @@
     
     @media (prefers-color-scheme: light) {
         .shadow-box-stats {
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(87, 77, 87, 0.34);
             background-color: rgba(255, 255, 255, 0.527);
             word-break: keep-all;
@@ -512,7 +512,7 @@
         
         @media only screen and (max-width: 900px) {
             .shadow-box-stats {
-                border-radius: 20px;
+                border-radius: 5px;
                 box-shadow: 0px 3px 34px -12px rgba(140, 123, 140, 0.34);
                 background-color: #fff;
                 text-align: left;
@@ -524,7 +524,7 @@
     @media (prefers-color-scheme: dark) {
         .shadow-box-blog {
             border: 30px solid transparent;
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(10, 8, 10, 0.849);
             background-size: cover;
             color: #fff;
@@ -533,7 +533,7 @@
         
         .shadow-box-blog:hover {
             border: 30px solid transparent;
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(36, 30, 36, 0.774);
             cursor: pointer;
         }
@@ -542,7 +542,7 @@
     @media (prefers-color-scheme: light) {
         .shadow-box-blog {
             border: 30px solid transparent;
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(48, 43, 48, 0.521);
             color: #fff;
             background-size: 100% auto;
@@ -551,7 +551,7 @@
         
         .shadow-box-blog:hover {
             border: 30px solid transparent;
-            border-radius: 20px;
+            border-radius: 5px;
             box-shadow: 0px 3px 34px -12px rgba(97, 87, 97, 0.712);
             cursor: pointer;
         }
@@ -560,30 +560,30 @@
     /*STATS BACKGROUND*/
     
     .warm {
-        border-radius: 20px;
+        border-radius: 5px;
         background-color: #FF9A8B;
         background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
     }
     
     .blue {
-        border-radius: 20px;
+        border-radius: 5px;
         background-color: #8BC6EC;
         background-image: linear-gradient(135deg, #8BC6EC 0%, rgb(18, 185, 236) 100%);
     }
     
     .green {
-        border-radius: 20px;
+        border-radius: 5px;
         background-color: #85FFBD;
         background-image: linear-gradient(270deg, #85FFBD 0%, #cfeacb 100%);
     }
     
     .mars {
-        border-radius: 20px;
+        border-radius: 5px;
         background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
     }
     
     .dark {
-        border-radius: 20px;
+        border-radius: 5px;
         background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
     }
     /*HIDE ON MOBILE OR HIDE*/
@@ -759,7 +759,7 @@ input[type="checkbox"]:checked+label:before {
             color: #ffffff;
             background-color: #242424;
             border: 6px solid #242424;
-            border-radius: 20px;
+            border-radius: 5px;
             display: inline-block;  
             font-size: smaller;
             position: relative;
@@ -994,7 +994,7 @@ input[type="checkbox"]:checked+label:before {
             color: white;
             /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
             box-shadow: 0px 3px 34px -12px rgba(31, 26, 31, 0.692);
-            border-radius: 20px;
+            border-radius: 5px;
             display: 40px;
             margin-top: auto;
         }
@@ -1014,7 +1014,7 @@ input[type="checkbox"]:checked+label:before {
                 background-size: 200% auto;
                 color: white;
                 box-shadow: 0px 3px 34px -12px rgba(31, 26, 31, 0.692);
-                border-radius: 10px;
+                border-radius: 5px;
                 display: 40px;
                 margin-top: auto;
             }
@@ -1033,7 +1033,7 @@ input[type="checkbox"]:checked+label:before {
             color: white;
             /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
             box-shadow: 0px 3px 34px -12px rgba(116, 112, 116, 0.692);
-            border-radius: 20px;
+            border-radius: 5px;
             display: 40px;
             margin-top: auto;
         }
@@ -1053,7 +1053,7 @@ input[type="checkbox"]:checked+label:before {
                 background-size: 200% auto;
                 color: white;
                 box-shadow: 0px 3px 70px 20px rgba(247, 247, 247, 0.178);
-                border-radius: 10px;
+                border-radius: 5px;
                 display: 40px;
                 margin-top: auto;
             }
@@ -1079,7 +1079,7 @@ input[type="checkbox"]:checked+label:before {
         
         .sum-word-breakUI {
             word-wrap: break-word;
-            width: 80%;
+            text-size-adjust: auto;
             background-color: #333;
             width: auto;
         }
@@ -1135,8 +1135,9 @@ input[type="checkbox"]:checked+label:before {
         .sum-word-breakUI {
             word-wrap: break-word;
             width: 80%;
-            background-color: white;
+            background-color: rgb(248, 248, 248);
             width: auto;
+            border: 5px solid transparent;
         }
         
         summary {

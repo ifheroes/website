@@ -13,25 +13,23 @@ $obj = json_decode($data);
 <div class="container">
         <div class="row">
             <?php
-                foreach($obj as $mydata)
+                foreach($obj as $mydata) ///Get data foreach entry in lines etc.
                 {
             ?>
                 <!--HTML elements-->
                     <div class="col-sm">
-                        <div class="shadow-box-blog" style="background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $mydata->image_link;?>') no-repeat center ; ">
+                        <div class="shadow-box-blog" style="background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $mydata->image_link;?>') center ; ">
                             <h3><?php echo $mydata->title . "<br>";?></h3>
                         </div>
                         <br>
-                        <div class="shadow-box">
+                        <div class="shadow-box-2">
                             <h5>Deine Aufgabe:</h5>
-                            <?php echo $mydata->text . "<br>";?>
+                            <?php echo $mydata->text . "<br>";?> <!--Print out text form specific line-->
                         
-                        </div>
+                        </div><br>
                     </div>
-
             <?php
                 } 
 ?>
         </div>
 </div>   
- 
