@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito:300,400,700&amp;display=swap");
+
+:root {
+  --member-animation: all 0.35s ease-in-out;
+  --font-family-1: "Josefin Sans", sans-serif;
+  --font-family-2: Nunito, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* TIMELINE */
+#timeline-container {
+  background: rgb(0, 17, 46);
+  background: linear-gradient(
+    171deg,
+    rgba(0, 17, 46, 1) 0%,
+    rgba(29, 21, 148, 1) 100%
+  );
+  overflow: auto;
+  padding: 60px 0;
+
+  .inner-container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    .heading {
+      text-align: center;
+      font-family: var(--font-family-1);
+      font-weight: 700;
+      font-size: 3rem;
+      color: white;
+      margin-top: 0;
+    }
+  }
+}
+
+.timeline {
+  margin: 0 auto;
+  position: relative;
+  left: 120px;
+  width: 80%;
+  max-width: 900px;
+  margin-top: 16px;
+  margin-left: 5%;
+}
+
+.timeline-item {
+  color: #ffffff;
+  font-family: var(--font-family-2);
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-left: 4px solid #fff;
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+  list-style-type: none;
+  --item-width: calc(100%);
+
+  &::after {
+    content: attr(data-date);
+    position: absolute;
+    right: calc(var(--item-width) + 40px);
+    top: 16px;
+    float: right;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  &::before {
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    position: absolute;
+    left: -10px;
+    top: 21px;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .timeline {
+    margin: 0 auto;
+    position: relative;
+    left: 85px;
+
+    .timeline-item {
+      font-size: 1.1rem;
+
+      &::after {
+        right: calc(var(--item-width) + 30px);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .timeline-item {
+    padding: 1rem 1.5rem 1rem 0.5rem;
+
+    &::after {
+      right: calc(var(--item-width) + 20px);
+    }
+  }
+}
+/* TIMELINE end */
+
