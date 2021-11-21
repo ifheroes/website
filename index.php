@@ -21,8 +21,8 @@ $website_url = 'http://chris-workstation/website/';
       <script src="<?php echo $website_url;?>/assets/jquery.min.js"></script>
       <script src="<?php echo $website_url;?>/assets/clipboard.min.js"></script>
 
-      <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png"/>
-      <link rel="shortcut icon" type="image/png" href="/assets/img/server-icon.png"  sizes="96x96">
+      <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png"/>
+      <link rel="shortcut icon" type="image/png" href="assets/img/server-icon.png"  sizes="96x96">
   </head>
 </html>
 
