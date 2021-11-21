@@ -21,7 +21,10 @@ $page['support'] = 'pages/support/index.php';
 $page['normal'] = 'pages/navbar/normal.php';
 
 
-///BLOG
+///NEWS
 $page['blog'] = 'pages/blog/blog.php';
+
+///STATUS
+$page['status'] = 'pages/status/status-overview.php'
 
 ?>

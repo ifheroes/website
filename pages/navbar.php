@@ -54,13 +54,17 @@
             <div class="col col-lg-5">
                 <br>
                 <div class="dropdown" style="margin-right: 6px;">
-
                     <a href="index.php" class="link-no-deco" style="margin-right: 12px;"><?php echo $lang['home_nav'];?></a>
                     <br>
                     <br>
                 </div>
                 <div class="dropdown" style="margin-right: 6px;">
                     <a href="index.php?page=jobs" class="link-no-deco" style="margin-right: 12px;"><?php echo $lang['jobs_nav'];?></a>
+                    <br>
+                    <br>
+                </div>
+                <div class="dropdown" style="margin-right: 6px;">
+                    <a href="index.php?page=status" class="link-no-deco" style="margin-right: 12px;"><?php echo $lang['status_nav'];?></a>
                     <br>
                     <br>
                 </div>

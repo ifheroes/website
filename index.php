@@ -21,12 +21,32 @@ $website_url = 'http://chris-workstation/website/';
       <script src="<?php echo $website_url;?>/assets/jquery.min.js"></script>
       <script src="<?php echo $website_url;?>/assets/clipboard.min.js"></script>
 
-      <link rel="apple-touch-icon" href="<?php echo $website_url; ?>/assets/img/apple-touch-icon.png"/>
-      <link rel="shortcut icon" type="image/png" href="<?php echo $website_url; ?>/assets/img/server-icon.png"  sizes="96x96">
+      <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png"/>
+      <link rel="shortcut icon" type="image/png" href="/assets/img/server-icon.png"  sizes="96x96">
   </head>
 </html>
 
-<?php include('pages/og-types/og-normal.php');?>
+<!--OG-Types for Website social Media integration-->
+
+<meta name="title" content="infinityheroes.de">
+<meta name="description" content="infinityheroes.space - Minecraft Server">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ifheroes.de">
+<meta property="og:title" content="ifheroes.de">
+<meta property="og:description" content="infinityheroes | Minecraft Server">
+<meta property="og:image" content="<?php echo $website_url;?>/assets/img/OG-Type-image.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ifheroesserver">
+<meta name="twitter:creator" content="@ifheroesserver">
+<meta property="twitter:url" content="https://ifheroes.de">
+<meta property="twitter:title" content="infinityheroes | Minecraft Server">
+<meta property="twitter:description" content="infinityheroes | Minecraft Server">
+<meta property="twitter:image" content="<?php echo $website_url;?>/assets/img/OG-Type-image.jpg">
+
 
 <?php
 
@@ -37,7 +57,7 @@ include('pages/lang/lang.php');
 
 ?>
 
-<?php include('pages/og-types/og-normal.php');?>
+
 
 <!doctype html>
 
