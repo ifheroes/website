@@ -1,13 +1,15 @@
 [{
     "service" : "minecraft",
     "title" :  "Minecraft",
-    "image_link" : "https://images-ext-2.discordapp.net/external/ZUAenOK_5uwJgX6rVcBcqh0F55L9HhS33BKS07qrJ7E/https/media.discordapp.net/attachments/597066766903934997/735418020796694599/jobs.jpg?width=1273&height=716", 
+    "image_link" : "./assets/img/status-image.jpg", 
     "ip" : "ifheroes.de",
     "port" : "25565"
-  }, {
+  }, 
+  {
     "service" : "discord",
     "title" :  "Discord Bot",
-    "image_link" : "https://images-ext-2.discordapp.net/external/ZUAenOK_5uwJgX6rVcBcqh0F55L9HhS33BKS07qrJ7E/https/media.discordapp.net/attachments/597066766903934997/735418020796694599/jobs.jpg?width=1273&height=716", 
-    "ip" : "hypixel.net",
+    "image_link" : "./assets/img/status-image.jpg", 
+    "ip" : "ifheroes.de",
     "port" : "80"
-  }]
+  }
+]

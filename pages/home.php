@@ -19,7 +19,11 @@
                     <text class="font-color">
                         <h3><i class="fab fa-discord"></i> Discord-Server</h3>
                         <br>
-                        203 Benutzer Online
+                        <?php
+                            $DiscordjsonData = file_get_contents("https://discordapp.com/api/guilds/355790224527327232/widget.json");
+                            $data = json_decode($DiscordjsonData, true);
+                            echo $data['presence_count'];
+                        ?> Benutzer Online
                     </text>
                 </div>
             </div>
@@ -33,7 +37,10 @@
 
                         <h3><i class="fas fa-cube"></i> Minecraft-Server</h3>
                         <br>
-                        20 Benutzer Online
+                        <?php
+                            $status = json_decode(file_get_contents('https://api.minetools.eu/query/lobby.freecraft.eu/25555'));
+                            echo $status->Players;
+                        ?> Benutzer Online
                     </text>
                 </div>
             </div>
