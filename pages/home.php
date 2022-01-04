@@ -17,13 +17,15 @@
             <div class="shadow-box">
                 <div class="col-sm">
                     <text class="font-color">
-                        <h3><i class="fab fa-discord"></i> Discord-Server</h3>
-                        <br>
-                        <?php
+                        <a target="_blank" href="https://ifheroes.de/discord" class="link-no-deco">
+                            <h3><i class="fab fa-discord"></i> Discord-Server</h3>
+                            <br>
+                            <?php
                             $DiscordjsonData = file_get_contents("https://discordapp.com/api/guilds/355790224527327232/widget.json");
                             $data = json_decode($DiscordjsonData, true);
                             echo $data['presence_count'];
-                        ?> Benutzer Online
+                            ?> Benutzer Online
+                        </a>
                     </text>
                 </div>
             </div>
@@ -34,13 +36,12 @@
             <div class="shadow-box">
                 <div class="col-sm">
                     <text class="font-color">
-
-                        <h3><i class="fas fa-cube"></i> Minecraft-Server</h3>
-                        <br>
-                        <?php
+                            <h3><i class="fas fa-cube"></i> Minecraft-Server</h3>
+                            <br>
+                            <?php
                             $status = json_decode(file_get_contents('https://api.minetools.eu/query/lobby.freecraft.eu/25555'));
                             echo $status->Players;
-                        ?> Benutzer Online
+                            ?> Benutzer Online
                     </text>
                 </div>
             </div>
@@ -52,24 +53,6 @@
 
 
 <center>
-
-    <?php
-    /*     $result = mysqli_query($conn, "SELECT * FROM user_online WHERE service='minecraft';");
-    while ($row = mysqli_fetch_array($result)) {
-        if ($row['count'] > 5) {
-    ?>
-            <h5>Spiele jetzt gemeinsam mit <?php echo $row['count']; ?> von <?php echo $row['maxcount']; ?> Spielern auf infinityheroes<br>
-            <?php
-        } else {
-            ?><h4>Jetzt auf infinityheroes spielen!</h4><?php
-                                                        }
-                                                   }  */ ?>
-    <!--     <br>
-    <a class="pushme">
-        <center>
-            <h5><kbd class="curl" data-clipboard-text="ifheroes.de:25565" style="font-family: 'Montserrat', sans-serif;background-color: #b9b9b97d;">Adresse Kopieren</kbd></h5>
-        </center>
-    </a> -->
     </h5>
 
     <br>
