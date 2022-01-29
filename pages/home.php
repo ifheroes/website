@@ -80,7 +80,7 @@
 
 <!--#####-->
 <div id="start"></div>
-<br>
+<!--<br>
 <br>
 <br>
 <center>
@@ -89,7 +89,7 @@
     <h3>Aktuelles</h3>
     <text class="font-color">Neulichkeiten, Updates und mehr.</text>
     <p></p>
-</center>
+</center> -->
 
 
 <!--###-->

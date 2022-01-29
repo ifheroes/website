@@ -1120,7 +1120,7 @@ input[type="checkbox"]:checked+label:before {
         details {
             display: block;
             width: 100%;
-            background-color: whitesmoke;
+            background-color: rgb(255, 255, 255);
         }
         
         details summary::-webkit-details-marker {

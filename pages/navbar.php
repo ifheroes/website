@@ -20,14 +20,11 @@
                     <a class="nav-link" href="?page=jobs"><?php echo $lang['jobs_nav'];?> <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <?php echo $lang['community_nav'];?> <span class="sr-only">(current)</span></a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="?page=blog"><?php echo $lang['blog_nav'];?> </a>
-
-                    </div>
+                    <a class="nav-link" href="?page=status"><?php echo $lang['status_nav'];?> <span class="sr-only">(current)</span></a>
                 </li>
-               
+                <li class="nav-item active">
+                    <a class="nav-link" href="?page=about"><?php echo $lang['about'];?> <span class="sr-only">(current)</span></a>
+                </li>                
             </ul>
         </div>
     </nav>
@@ -54,11 +51,6 @@
             <div class="col col-lg-5">
                 <br>
                 <div class="dropdown" style="margin-right: 6px;">
-                    <a href="index.php" class="link-no-deco" style="margin-right: 12px;"><?php echo $lang['home_nav'];?></a>
-                    <br>
-                    <br>
-                </div>
-                <div class="dropdown" style="margin-right: 6px;">
                     <a href="index.php?page=jobs" class="link-no-deco" style="margin-right: 12px;"><?php echo $lang['jobs_nav'];?></a>
                     <br>
                     <br>
@@ -69,12 +61,14 @@
                     <br>
                 </div>
                 <div class="dropdown" style="margin-right: 6px;">
-                    <span><a href="index.php?page=feedback-overview" class="link-no-deco"><?php echo $lang['community_nav'];?></a> <i class="fas fa-caret-down"></i></i></i></span>
+                    <a href="index.php?page=about" class="link-no-deco" style="margin-right: 12px;"><?php echo $lang['about'];?></a>
                     <br>
                     <br>
-                    <div class="dropdown-content">
-                        <a href="index.php?page=blog" class="link-no-deco "><?php echo $lang['blog_nav'];?></a>
-                    </div>
+                </div>
+                <div class="dropdown" style="margin-right: 6px;">
+                    <b><a href="https://github.com/ifheroes" target="_blank" class="link-no-deco" style="margin-right: 12px;"><?php echo $lang['github'];?></b></a>
+                    <br>
+                    <br>
                 </div>
 
                 <!--NORMAL NAV-->
