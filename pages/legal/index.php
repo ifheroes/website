@@ -33,9 +33,11 @@
                         <li><a href=\"#m15\">Änderung und Aktualisierung der Datenschutzerklärung</a></li>
                         <li><a href=\"#m10\">Rechte der betroffenen Personen</a></li>
                         <li><a href=\"#m42\">Begriffsdefinitionen</a></li>
-                    </ul>Verantwortlicher<br>Christopher PaulOneisz<br>Herrschaftsstraße 3/4<br>73087 Bad
-                    Boll<br><strong>Vertretungsberechtigte Personen:</strong> Lukas
-                    Jantscher<br><strong>E-Mail-Adresse:</strong> <a target=\"_blank\" rel=\"nofollow noopener\" href=\"mailto:flycraft.eu@gmail.com\">flycraft.eu@gmail.com</a><br><strong>Impressum:</strong> <a target=\"_blank\" href=\"https://infinityheroes.space/impressum/\">https://infinityheroes.space/impressum/</a><br><br><br>Übersicht
+                    </ul>Verantwortlicher<br>Christopher PaulOneisz<br>Herrschaftsstraße 3/4
+                        <br>73087 Bad Boll<br>
+                        <strong>Vertretungsberechtigte Personen:</strong>
+                        Lukas Jantscher<br>
+                    <strong>E-Mail-Adresse:</strong> <a target=\"_blank\" rel=\"nofollow noopener\" href=\"mailto:info@ifheroes.de\">info@ifheroes.de</a><br><strong>Impressum:</strong> <a target=\"_blank\" href="<?php echo $website_url; ?>index.php?page=legal&notice"><?php echo $website_url; ?>index.php?page=legal&notice</a><br><br><br>Übersicht
                     der Verarbeitungen<br>Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke
                     ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.<br>Arten der verarbeiteten Daten
                     <ul>
@@ -566,18 +568,18 @@
                 <?php
                 }
                 if (isset($_GET['notice'])) {
-                    ?>
+                ?>
                     <h2><strong>Impressum</strong></h2>
                     <p><br /><em>Angaben gem&auml;&szlig; &sect; 5 TMG</em></p>
                     <p>&nbsp;</p>
                     <p><strong>Ansprechpartner:</strong></p>
                     <p>Christopher Paul Oneisz<br />Herrschaftsstra&szlig;e 3/4<br />73087 Bad
                         Boll<br /><br /><strong>Vertretungsberechtigt:</strong><br />Lukas Jantscher
-                    <p><!-- <strong>Kontaktformular</strong><br /><a
+                    <p>
+                        <!-- <strong>Kontaktformular</strong><br /><a
                             href=\"https://infinityheroes.de/index.php?page=contact\">https://infinityheroes.de/index.php?page=contact</a> -->
                     </p>
-                    <p><strong>Kontakt</strong><br />E-Mail: <a
-                            href=\"mailto:info@ifheroes.de\">info@ifheroes.de</a></p>
+                    <p><strong>Kontakt</strong><br />E-Mail: <a href=\"mailto:info@ifheroes.de\">info@ifheroes.de</a></p>
                     <p><br />Verantwortlich f&uuml;r den Inhalt nach &sect; 55 Abs. 2 RStV sind die jeweiligen
                         Moderatoren und Verfasser, von Beitr&auml;gen.</p>
                     <p><br /><strong>Haftung f&uuml;r Inhalte</strong></p>
@@ -611,7 +613,7 @@
                         umgehend entfernen.</p>
                     <p>&nbsp;</p>
                     <p>Quelle:<br /><a href=\"https://www.e-recht24.de\">https://www.e-recht24.de</a></p>
-                    <?php
+                <?php
                 }
                 if (isset($_GET['terms'])) {
                 }

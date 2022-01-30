@@ -58,13 +58,13 @@
                     </a>
                 </center>
             </div>
-            <div class="col-sm">
+<!--             <div class="col-sm">
                 <center>
                     <a class="link-footer" href="?page=legal&terms">
                         <?php echo $lang['terms_team_footer']; ?>
                     </a>
                 </center>
-            </div>
+            </div> -->
             <div class="col-sm">
                 <center>
                     <a class="link-footer" href="?page=legal&privacy">

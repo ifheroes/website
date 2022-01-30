@@ -36,12 +36,12 @@
             <div class="shadow-box">
                 <div class="col-sm">
                     <text class="font-color">
-                            <h3><i class="fas fa-cube"></i> Minecraft-Server</h3>
-                            <br>
-                            <?php
-                            $status = json_decode(file_get_contents('https://api.minetools.eu/query/lobby.freecraft.eu/25555'));
-                            echo $status->Players;
-                            ?> Benutzer Online
+                        <h3><i class="fas fa-cube"></i> Minecraft-Server</h3>
+                        <br>
+                        <?php
+                        $status = json_decode(file_get_contents('https://api.minetools.eu/query/lobby.freecraft.eu/25555'));
+                        echo $status->Players;
+                        ?> Benutzer Online
                     </text>
                 </div>
             </div>
@@ -92,8 +92,9 @@
 </center> -->
 
 
+
 <!--###-->
-<br>
+<!-- <br>
 <br>
 <center>
     <p>
@@ -111,6 +112,50 @@
                 <iframe src="https://discord.com/widget?id=355790224527327232&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" style="box-shadow: 4px 7px 65px -21px #16181b;"></iframe>
             </center>
             <br>
+        </div>
+    </div>
+</div> -->
+
+<!-- FAQ Übersicht allgemein -->
+<?php
+
+// get content form json file content/job_info.json via system/json_files.php 
+$data = file_get_contents($json['main_faq'], true);
+// JSON decode
+$obj = json_decode($data);
+
+
+///count entries of file
+$count = count($obj);
+
+?>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <center>
+                <br>
+                <br>
+                <h3>Allgemneines FAQ</h3>
+            </center>
+            <?php
+            foreach ($obj as $mydata) ///Get data foreach entry in lines etc.
+            {
+            ?>
+                <p>
+                <details>
+                    <summary>
+                        <b><?php echo   $mydata->title; ?></b>
+                    </summary>
+                    <div class="sum-word-breakUI">
+                        <p>
+                            <?php echo "<br>" . $mydata->text; ?>
+                        </p>
+                    </div>
+                </details>
+                </p>
+            <?php
+            }
+            ?>
         </div>
     </div>
 </div>
