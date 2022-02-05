@@ -10,11 +10,21 @@ $obj = json_decode($data);
     $count = count($obj);
 
 ?>
+    <center>
+        <h1 class="font-color">Bewerben</h1>
+        <text class="font-color">Diese Stellen bieten wir aktuell an! </text>
+    </center>
+    <br>
+
 <div class="container">
         <div class="row">
             <?php
                 foreach($obj as $mydata) ///Get data foreach entry in lines etc.
                 {
+
+                    if ($mydata->active !== "true") { //Check if desc is online if not show nothing
+                        
+                    } else {
             ?>
                 <!--HTML elements-->
                     <div class="col-sm">
@@ -29,6 +39,7 @@ $obj = json_decode($data);
                         </div><br>
                     </div>
             <?php
+                     }
                 } 
 ?>
         </div>

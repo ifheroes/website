@@ -34,7 +34,7 @@
 
     ///FOOTER 
     'eu_mcs_footer' => 'Infinityheroes ist ein europäischer<br> minecraft server. ',
-    'copy_footer' => 'Ein Projekt von Lukas Jantscher und Christopher Oneisz',
+    'copy_footer' => 'Made with ❤ by Heroes',
     'submit_ticket_footer' => 'Ticket erstellen',
     'rules_footer' => 'Regeln',
     'join_team_footer' => 'Trete unserem Team bei!',

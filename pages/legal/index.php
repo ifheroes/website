@@ -6,33 +6,33 @@
                 if (isset($_GET['privacy'])) { ?>
                     <h3>Datenschutzerklärung</h3>
                     <br><strong>Einleitung</strong><br><br>Mit der folgenden Datenschutzerklärung möchten wir Sie darüber
-                    aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als \"Daten“ bezeichnet)
+                    aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als "Daten“ bezeichnet)
                     wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns
                     durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen der Erbringung unserer
                     Leistungen als auch insbesondere auf unseren Webseiten, in mobilen Applikationen sowie innerhalb
                     externer Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend zusammenfassend bezeichnet
                     als \"Onlineangebot“).<br>Die verwendeten Begriffe sind nicht geschlechtsspezifisch.<br><br>Stand: 24.
                     August 2020<br>Inhaltsübersicht<ul>
-                        <li><a href=\"#m14\">Einleitung</a></li>
-                        <li><a href=\"#m3\">Verantwortlicher</a></li>
-                        <li><a href=\"#mOverview\">Übersicht der Verarbeitungen</a></li>
-                        <li><a href=\"#m13\">Maßgebliche Rechtsgrundlagen</a></li>
-                        <li><a href=\"#m27\">Sicherheitsmaßnahmen</a></li>
-                        <li><a href=\"#m25\">Übermittlung und Offenbarung von personenbezogenen Daten</a></li>
-                        <li><a href=\"#m134\">Einsatz von Cookies</a></li>
-                        <li><a href=\"#m225\">Bereitstellung des Onlineangebotes und Webhosting</a></li>
-                        <li><a href=\"#m367\">Registrierung, Anmeldung und Nutzerkonto</a></li>
-                        <li><a href=\"#m104\">Blogs und Publikationsmedien</a></li>
-                        <li><a href=\"#m182\">Kontaktaufnahme</a></li>
-                        <li><a href=\"#m391\">Kommunikation via Messenger</a></li>
-                        <li><a href=\"#m1643\">Push-Nachrichten</a></li>
-                        <li><a href=\"#m136\">Präsenzen in sozialen Netzwerken (Social Media)</a></li>
-                        <li><a href=\"#m328\">Plugins und eingebettete Funktionen sowie Inhalte</a></li>
-                        <li><a href=\"#m723\">Planung, Organisation und Hilfswerkzeuge</a></li>
-                        <li><a href=\"#m12\">Löschung von Daten</a></li>
-                        <li><a href=\"#m15\">Änderung und Aktualisierung der Datenschutzerklärung</a></li>
-                        <li><a href=\"#m10\">Rechte der betroffenen Personen</a></li>
-                        <li><a href=\"#m42\">Begriffsdefinitionen</a></li>
+                        <li>Einleitung</li>
+                        <li>Verantwortlicher</li>
+                        <li>Übersicht der Verarbeitungen</li>
+                        <li>Maßgebliche Rechtsgrundlagen</li>
+                        <li>Sicherheitsmaßnahmen</li>
+                        <li>Übermittlung und Offenbarung von personenbezogenen Daten</li>
+                        <li>Einsatz von Cookies</li>
+                        <li>Bereitstellung des Onlineangebotes und Webhosting</li>
+                        <li>Registrierung, Anmeldung und Nutzerkonto</li>
+                        <li>Blogs und Publikationsmedien</li>
+                        <li>Kontaktaufnahme</li>
+                        <li>Kommunikation via Messenger</li>
+                        <li>Push-Nachrichten</li>
+                        <li>Präsenzen in sozialen Netzwerken (Social Media)</li>
+                        <li>Plugins und eingebettete Funktionen sowie Inhalte</li>
+                        <li>Planung, Organisation und Hilfswerkzeuge</li>
+                        <li>Löschung von Daten</li>
+                        <li>Änderung und Aktualisierung der Datenschutzerklärung</li>
+                        <li>Rechte der betroffenen Personen</li>
+                        <li>Begriffsdefinitionen</li>
                     </ul>Verantwortlicher<br>Christopher PaulOneisz<br>Herrschaftsstraße 3/4
                         <br>73087 Bad Boll<br>
                         <strong>Vertretungsberechtigte Personen:</strong>

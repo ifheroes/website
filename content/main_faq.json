@@ -1,10 +1,16 @@
 [{
-    "title" : "Wie bewerbe ich mich?",
-    "text" :  "Deine Bewerbung nehmen wir über unseren Discord Server entgegen. Erstelle hierfür einen Thread in unserer Bewerbungskategorie. Wir werden deine Bewerbung in einer angemessenen Zeit diskret bearbeiten. "
+    "title" : "Wie erreiche ich den Server?",
+    "text" :  "Du kannst unseren Server in der Minecraft Java Edition unter der Domain <kbd>infinityheroes.de</kbd> oder <kbd>ifheroes.de</kbd> erreichen."
   }, {
-    "title" : "Gibt es besondere anforderungen?",
-    "text" :  "Die Anforderungen findest du auf dem Discord unter dem Ankündigungskanal der Bewerbungskategorie."
+    "title" : "Die Whitelist ist auf dem Server an, warum?",
+    "text" :  "Sofern die Whitelist an ist, führen wir Wartungen am Server durch. "
+  },{
+    "title" : "Welche Version benötige ich für den Server?",
+    "text" :  "Zur Zeit sind wir auf der Version 1.18.1."
+  },{
+    "title" : "Wie kann ich Kontakt mit dem Team aufbauen?",
+    "text" :  "Du kannst uns auf unserem Discord unter <a href='https://ifheroes.de/discord'>ifheroes.de/discord</a> oder via Mail <a href='mailto:admins@ifheroes.de'>admins@ifheroes.de</a> erreichen."
   }, {
-    "title" : "Gibt es die möglichkeit Support Aufgaben zu übernehmen?",
-    "text" :  "Wir suchen momentan keine Personen für den Spieler-Support. Sobald es hier Änderungen gibt, werden diese im Discord in der Bewerbungskategorie angekündigt."
+    "title" : "Ich wurde vom Server verbannt, an wen kann ich mich wenden?",
+    "text" :  "Du kannst uns auf unserem Discord unter <a href='https://ifheroes.de/discord'>ifheroes.de/discord</a> erreichen und ggf. einen Antrag auf Enbannung stellen."
   }]

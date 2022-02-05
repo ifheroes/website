@@ -1,16 +1,19 @@
 [{
     "title" : "Entwicker/in",
-    "text" :  "Begleite Open-Source Projekte in einem eingespielten Team bis zum Erfolg.",
+    "text" :  "Begleite Open-Source Projekte in einem eingespielten Team bis zum Erfolg. Werde ein teil einer großen Idee!",
     "image_link" : "assets/img/jobs/entwickler.jpg", 
-    "link" : "discord.com/"
+    "link" : "discord.com/",
+    "active" : "true"
   }, {
     "title" : "Architekt/in",
     "text" :  "Erbaue neue Landschaften und begleite Abschnitte bis über den Roll-out hinaus. Hinterlasse deine Handschrift auf unserem Server und hilf uns dabei, unsere Welt ein wenig schöner zu machen.",
     "image_link" : "assets/img/jobs/architekt.jpg", 
-    "link" : "discord.com/"
-  }, {
+    "link" : "discord.com/",
+    "active" : "true"
+  },{
     "title" : "Story Writer/in",
     "text" :  "Begleite Open-Source Projekte in einem eingespielten Team bis zum Erfolg.",
     "image_link" : "assets/img/jobs/story-writer.jpg", 
-    "link" : "discord.com/"
+    "link" : "discord.com/",
+    "active" : "true"
   }]

@@ -21,7 +21,7 @@ $count = count($obj);
         ?>
         <p>
 
-        <div class="shadow-box-blog" style="cursor:auto ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $mydata->image_link;?>') center ; ">
+        <div class="shadow-box-blog" style="cursor:auto ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $mydata->image_link;?>') center scroll ; ">
                             <h3><?php echo $mydata->title . "<br>";?></h3>
                         </div>
                         <br>

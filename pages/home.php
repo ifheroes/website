@@ -39,8 +39,8 @@
                         <h3><i class="fas fa-cube"></i> Minecraft-Server</h3>
                         <br>
                         <?php
-                        $status = json_decode(file_get_contents('https://api.minetools.eu/query/lobby.freecraft.eu/25555'));
-                        echo $status->Players;
+                        $status = json_decode(file_get_contents('https://api.mcsrvstat.us/2/ifheroes.de'));
+                        echo $status->players->online;
                         ?> Benutzer Online
                     </text>
                 </div>
@@ -80,17 +80,21 @@
 
 <!--#####-->
 <div id="start"></div>
-<!--<br>
-<br>
 <br>
 <center>
-    <p>
-    </p>
-    <h3>Aktuelles</h3>
-    <text class="font-color">Neulichkeiten, Updates und mehr.</text>
-    <p></p>
-</center> -->
 
+    <div class="container">
+        <br>
+        <div class="row ">
+            <div class="col-sm">
+                <div class="shadow-box-blog" style="cursor:auto ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('https://cdn.discordapp.com/attachments/876387207458455585/939576593616105572/2019-04-19_14.05.36.png') center scroll ; ">
+                    <h4>Wir arbeiten aktuell an einer Fortsetzung unseres Servers. Mehr Infos folgen bald.</h4>
+                </div>
+            </div>
+        </div>
+        <p></p>
+
+</center>
 
 
 <!--###-->

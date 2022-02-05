@@ -1,10 +1,4 @@
 <body>
-    <center>
-        <h1 class="font-color">Bewerben</h1>
-        <text class="font-color">Diese Stellen bieten wir aktuell an! </text>
-    </center>
-    <br>
-
     <!--Jobs übersicht-->
 
 

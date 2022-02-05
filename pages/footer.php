@@ -28,10 +28,11 @@
                 <br>
                 <b><a class="link-footer" href="?page=status">Status</a></b>
                 <br>
-                <b><a class="link-footer" href="?page=aboutus">Über uns!</a></b>
+                <b><a class="link-footer" href="?page=about">Über uns!</a></b>
                 <br>
                 <b><a class="link-footer" href="https://github.com/ifheroes" target="_blank" >GitHub</a></b>
                 <br>
+                <b><a class="link-footer" href="?page=contents">Inhalte</a></b>
             </div>
             <div class="col-sm">
                 <br>
