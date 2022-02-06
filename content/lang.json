@@ -1,0 +1,32 @@
+{
+  "german": [
+    {
+      "navbar": [
+        {
+          "jobs" : "Bewerben",
+          "github" :  "Github",
+          "about": "Über uns",
+          "status":"Status"
+        }
+      ]
+    },
+    {
+      "home": [
+        {
+          "Arrow_animation" : "Klick hier um zu starten"
+        }
+      ]
+    },
+    {
+      "footer": [
+        {
+          "brand" : "Made with ❤ by Heroes",
+          "rules":"Regeln",
+          "legal":"Impressum",
+          "terms":"Nutzungsbedingungen",
+          "privacy":"Datenschutz"
+        }
+      ]
+    }
+  ]
+}

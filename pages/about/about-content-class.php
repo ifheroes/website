@@ -28,7 +28,7 @@ $count = count($obj);
 
 
                     <p>
-                    <?php echo "<br>" . $mydata->text; ?>
+                    <?php echo "<br>" . $mydata->text; //get some data from json file ?>
                     </p>
 
 

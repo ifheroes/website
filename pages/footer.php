@@ -32,7 +32,7 @@
                 <br>
                 <b><a class="link-footer" href="https://github.com/ifheroes" target="_blank" >GitHub</a></b>
                 <br>
-                <b><a class="link-footer" href="?page=contents">Inhalte</a></b>
+                <b><a class="link-footer" href="https://github.com/ifheroes/website">Inhalte</a></b>
             </div>
             <div class="col-sm">
                 <br>
