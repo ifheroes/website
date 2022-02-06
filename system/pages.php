@@ -22,7 +22,7 @@ $page['normal'] = 'pages/navbar/normal.php';
 
 
 ///NEWS
-$page['blog'] = 'pages/blog/blog.php';
+$page['about'] = 'pages/about/about.php';
 
 ///STATUS
 $page['status'] = 'pages/status/status-overview.php'

@@ -1,6 +1,6 @@
 <?php
 
-  $Empfaenger = "flycraft.eu@gmail.com";
+  $Empfaenger = "admins@ifheroes.de";
   $absendername = $_REQUEST['mail'];
   $absendermail = $_REQUEST['mail'];
   $Mailnachricht = nl2br("<html>" . $_REQUEST['textarea'] . "</html>");

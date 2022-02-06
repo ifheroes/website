@@ -33,8 +33,7 @@ $obj = json_decode($data);
                             ?>
 
                             <div class="shadow-box-2">
-                            <h5> <img src="https://c.tenor.com/2yE8KjGupmEAAAAC/terter-button.gif" width="16">
-                                Online</h5>
+                            <h5><status-indicator positive pulse> </status-indicator> <text style="visibility: hidden;">-</text>Online</h5>
                                 <?php echo $mydata->ip . "<br>";?> <!--Print out text form specific line-->
                             </div>
                             <br>
@@ -47,7 +46,7 @@ $obj = json_decode($data);
                             ?>
 
                             <div class="shadow-box-2">
-                                <h5>Offline</h5>
+                                <h5> <status-indicator negative pulse> </status-indicator><text style="visibility: hidden;">-</text>Offline</h5>
                                 <?php echo $mydata->ip . "<br>";?> <!--Print out text form specific line-->
                             </div>
                             <br>

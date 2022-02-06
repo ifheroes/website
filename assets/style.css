@@ -7,7 +7,7 @@
     /* Background IMAGE */
     @media (prefers-color-scheme: dark) {
         .backgroundUI {
-            background:  url('./img/background-default-2.jpg') no-repeat center center fixed;
+            background: linear-gradient( rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.747)),  url('./img/background-default-2.jpg') no-repeat center center fixed;
             background-size: cover;
             color: white;
         }
@@ -1120,7 +1120,7 @@ input[type="checkbox"]:checked+label:before {
         details {
             display: block;
             width: 100%;
-            background-color: whitesmoke;
+            background-color: rgb(255, 255, 255);
         }
         
         details summary::-webkit-details-marker {

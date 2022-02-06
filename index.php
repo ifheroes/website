@@ -1,6 +1,6 @@
 <?php
 
-$website_url = 'http://chris-workstation/website/';
+$website_url = 'http://192.168.178.40/website/';
      
   
 
@@ -10,19 +10,19 @@ $website_url = 'http://chris-workstation/website/';
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
      
-      <link rel="stylesheet" href="<?php echo $website_url;?>/assets/style.css">
-      <link rel="stylesheet" href="<?php echo $website_url;?>/assets/bootstrap.min.css">
-      
+      <link rel="stylesheet" href="<?php echo $website_url;?>assets/style.css">
+      <link rel="stylesheet" href="<?php echo $website_url;?>assets/bootstrap.min.css">
+      <link rel="stylesheet" href="<?php echo $website_url;?>assets/status-indicator.css">
       
       <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
-      <script src="<?php echo $website_url;?>/assets/jquery-3.4.1.slim.min.js"></script>
-      <script src="<?php echo $website_url;?>/assets/bootstrap.min.js"></script>
-      <script src="<?php echo $website_url;?>/assets/all.js"></script>
-      <script src="<?php echo $website_url;?>/assets/jquery.min.js"></script>
-      <script src="<?php echo $website_url;?>/assets/clipboard.min.js"></script>
+      <script src="<?php echo $website_url;?>assets/jquery-3.4.1.slim.min.js"></script>
+      <script src="<?php echo $website_url;?>assets/bootstrap.min.js"></script>
+      <script src="<?php echo $website_url;?>assets/all.js"></script>
+      <script src="<?php echo $website_url;?>assets/jquery.min.js"></script>
+      <script src="<?php echo $website_url;?>assets/clipboard.min.js"></script>
 
-      <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png"/>
-      <link rel="shortcut icon" type="image/png" href="/assets/img/server-icon.png"  sizes="96x96">
+      <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png"/>
+      <link rel="shortcut icon" type="image/png" href="assets/img/server-icon.png"  sizes="96x96">
   </head>
 </html>
 

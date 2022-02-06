@@ -10,15 +10,25 @@ $obj = json_decode($data);
     $count = count($obj);
 
 ?>
+    <center>
+        <h1 class="font-color">Bewerben</h1>
+        <text class="font-color">Diese Stellen bieten wir aktuell an! </text>
+    </center>
+    <br>
+
 <div class="container">
         <div class="row">
             <?php
                 foreach($obj as $mydata) ///Get data foreach entry in lines etc.
                 {
+
+                    if ($mydata->active !== "true") { //Check if desc is online if not show nothing
+                        
+                    } else {
             ?>
                 <!--HTML elements-->
                     <div class="col-sm">
-                        <div class="shadow-box-blog" style="background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $mydata->image_link;?>') center ; ">
+                        <div class="shadow-box-blog" style="cursor: auto;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $mydata->image_link;?>') no-repeat center/125% ;">
                             <h3><?php echo $mydata->title . "<br>";?></h3>
                         </div>
                         <br>
@@ -29,6 +39,7 @@ $obj = json_decode($data);
                         </div><br>
                     </div>
             <?php
+                     }
                 } 
 ?>
         </div>
