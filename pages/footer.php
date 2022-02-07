@@ -22,7 +22,7 @@
             </div>
             <div class="col-sm">
                 <br>
-                <b>Qicklinks</b>
+                <b>Quicklinks</b>
                 <br>
                 <b><a class="link-footer" href="?page=jobs">Bewerben</a></b>
                 <br>

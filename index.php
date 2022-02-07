@@ -1,6 +1,6 @@
 <?php
 
-$website_url = 'http://192.168.178.40/website/';
+$website_url = 'http://192.168.178.40/website/'; ///PUT A SLASH AFTER URL FOR ASSETS
      
   
 
@@ -26,17 +26,12 @@ $website_url = 'http://192.168.178.40/website/';
   </head>
 </html>
 
-<!--OG-Types for Website social Media integration-->
-
-<meta name="title" content="infinityheroes.de">
-<meta name="description" content="infinityheroes.space - Minecraft Server">
-
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ifheroes.de">
 <meta property="og:title" content="ifheroes.de">
 <meta property="og:description" content="infinityheroes | Minecraft Server">
-<meta property="og:image" content="<?php echo $website_url;?>/assets/img/OG-Type-image.jpg">
+<meta property="og:image" content="<?php echo $website_url;?>assets/img/OG-Type-image.jpg">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
@@ -44,8 +39,7 @@ $website_url = 'http://192.168.178.40/website/';
 <meta name="twitter:creator" content="@ifheroesserver">
 <meta property="twitter:url" content="https://ifheroes.de">
 <meta property="twitter:title" content="infinityheroes | Minecraft Server">
-<meta property="twitter:description" content="infinityheroes | Minecraft Server">
-<meta property="twitter:image" content="<?php echo $website_url;?>/assets/img/OG-Type-image.jpg">
+<meta property="twitter:image" content="<?php echo $website_url;?>assets/img/OG-Type-image.jpg">
 
 
 <?php
