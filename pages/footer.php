@@ -104,7 +104,7 @@
                 "href": "?page=legal&amp;privacy",
                 "message": "Diese Webseite benutzt Cookies um Nutzern das bestmögliche erlebnis zu bieten.",
                 "link": "Datenschutz",
-                "button": "Verstanden"
+                "button": "Ich stimme zu!"
             }
         })
     });

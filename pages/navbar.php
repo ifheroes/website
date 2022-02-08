@@ -1,7 +1,7 @@
 <!--HIDE ON PC-->
 <div class="hide-pc">
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand" href="">
+        <a class="navbar-brand" href="index.php">
             <img class="avatar" src="assets/img/infh-astro-blue.png">
             <text class="color-font" style="font-family: 'NTR' ;margin-left: 7px; color:#333;">INFINITYHEROES</text>
 
@@ -14,9 +14,6 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="?"><?php echo $lang['home_nav'];?><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
                     <a class="nav-link" href="?page=jobs"><?php echo $lang['jobs_nav'];?> <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
@@ -24,7 +21,10 @@
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="?page=about"><?php echo $lang['about'];?> <span class="sr-only">(current)</span></a>
-                </li>                
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://github.com/ifheroes"><b><?php echo $lang['github'];?></b><span class="sr-only">(current)</span></a>
+                </li>                 
             </ul>
         </div>
     </nav>
