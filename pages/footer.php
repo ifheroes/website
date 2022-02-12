@@ -22,7 +22,7 @@
             </div>
             <div class="col-sm">
                 <br>
-                <b>Qicklinks</b>
+                <b>Quicklinks</b>
                 <br>
                 <b><a class="link-footer" href="?page=jobs">Bewerben</a></b>
                 <br>
@@ -104,7 +104,7 @@
                 "href": "?page=legal&amp;privacy",
                 "message": "Diese Webseite benutzt Cookies um Nutzern das bestmögliche erlebnis zu bieten.",
                 "link": "Datenschutz",
-                "button": "Verstanden"
+                "button": "Ich stimme zu!"
             }
         })
     });
