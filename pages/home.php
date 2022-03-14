@@ -96,6 +96,10 @@
 
 </center>
 
+<!-- Support for Dynmap  -->
+<!-- <iframe src="http://[::1]:8123/" width="90%" height="599">
+  <p>Your browser does not support iframes.</p>
+</iframe> -->
 
 <!--###-->
 <!-- <br>
@@ -139,7 +143,7 @@ $count = count($obj);
             <center>
                 <br>
                 <br>
-                <h3>Allgemneines FAQ</h3>
+                <h3>Allgemeines FAQ</h3>
             </center>
             <?php
             foreach ($obj as $mydata) ///Get data foreach entry in lines etc.
@@ -148,7 +152,7 @@ $count = count($obj);
                 <p>
                 <details>
                     <summary>
-                        <b><?php echo   $mydata->title; ?></b>
+                        <b><?php echo $mydata->title; ?></b>
                     </summary>
                     <div class="sum-word-breakUI">
                         <p>
