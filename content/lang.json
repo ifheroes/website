@@ -1,32 +1,29 @@
 {
-  "german": [
+  "navbar": [
     {
-      "navbar": [
-        {
-          "jobs" : "Bewerben",
-          "github" :  "Github",
-          "about": "Über uns",
-          "status":"Status"
-        }
-      ]
-    },
+      "jobs": "Bewerben",
+      "github": "Github",
+      "about": "Über uns",
+      "status": "Status"
+    }
+  ],
+  "home": [
     {
-      "home": [
-        {
-          "Arrow_animation" : "Klick hier um zu starten"
-        }
-      ]
-    },
+      "show_discord_title":"Discord-Server",
+      "show_discord_players":"Benutzer Online",
+      "show_mc_title":"Minecraft-Server",
+      "show_mc_players":"Spieler Online",
+      "Arrow_animation" : "Klick hier um zu starten",
+      "FAQ_main" : "Allgemeines FAQ"
+    }
+  ],
+  "footer": [
     {
-      "footer": [
-        {
-          "brand" : "Made with ❤ by Heroes",
-          "rules":"Regeln",
-          "legal":"Impressum",
-          "terms":"Nutzungsbedingungen",
-          "privacy":"Datenschutz"
-        }
-      ]
+      "brand": "Made with ❤ by Heroes",
+      "rules": "Regeln",
+      "legal": "Impressum",
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutz"
     }
   ]
 }

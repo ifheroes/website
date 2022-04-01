@@ -11,4 +11,6 @@ $json['aboutus'] = 'content/aboutus.json';
 
 $json['jobs_faq'] = 'content/job_faq.json';
 $json['main_faq'] = 'content/main_faq.json';
+
+$json['lang'] = 'content/lang.json'; 
 ?>

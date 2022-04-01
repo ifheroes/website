@@ -18,13 +18,13 @@
                 <div class="col-sm">
                     <text class="font-color">
                         <a target="_blank" href="https://ifheroes.de/discord" class="link-no-deco">
-                            <h3><i class="fab fa-discord"></i> Discord-Server</h3>
+                            <h3><i class="fab fa-discord"></i> <?php echo $data_lang->home[0]->show_discord_title;?></h3>
                             <br>
                             <?php
                             $DiscordjsonData = file_get_contents("https://discordapp.com/api/guilds/355790224527327232/widget.json");
                             $data = json_decode($DiscordjsonData, true);
                             echo $data['presence_count'];
-                            ?> Benutzer Online
+                            ?> <?php echo $data_lang->home[0]->show_discord_players;?>
                         </a>
                     </text>
                 </div>
@@ -36,12 +36,12 @@
             <div class="shadow-box">
                 <div class="col-sm">
                     <text class="font-color">
-                        <h3><i class="fas fa-cube"></i> Minecraft-Server</h3>
+                        <h3><i class="fas fa-cube"></i> <?php echo $data_lang->home[0]->show_mc_title;?></h3>
                         <br>
                         <?php
                         $status = json_decode(file_get_contents('https://api.mcsrvstat.us/2/ifheroes.de'));
                         echo $status->players->online;
-                        ?> Benutzer Online
+                        ?> <?php echo $data_lang->home[0]->show_mc_players;?>
                     </text>
                 </div>
             </div>
@@ -60,13 +60,13 @@
     <br>
     <br>
     <br>
-    <h6 style="animation: fadein 3s;">Klicke auf den Pfeil um mehr zu erfahren</h6>
+    <h6><?php echo $data_lang->home[0]->Arrow_animation; ///get data from lang.json in index?></h6>
     <br> <br>
 
 
     <a href="#start" class="link-no-deco">
         <div class="bounce">
-            <img style="animation: fadein 3s;" src="<?php echo $website_url; ?>/assets/img/arrow-down.svg" width="30px">
+            <img src="<?php echo $website_url; ?>/assets/img/arrow-down.svg" width="30px">
         </div>
     </a>
 </center>
@@ -74,7 +74,7 @@
 <br> <br>
 <br>
 <br>
-<div class="bow"></div>
+
 </div>
 
 
@@ -143,7 +143,7 @@ $count = count($obj);
             <center>
                 <br>
                 <br>
-                <h3>Allgemeines FAQ</h3>
+                <h3><?php echo $data_lang->home[0]->FAQ_main; ///get data from lang.json in index?></h3>
             </center>
             <?php
             foreach ($obj as $mydata) ///Get data foreach entry in lines etc.
