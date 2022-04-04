@@ -12,33 +12,33 @@
             <div class="col-sm"></div>
             <div class="col-sm-2">
                 <br>
-                <b>Social Media</b>
+                <b><?php echo $data_lang->footer[0]->socials?></b>
                 <br>
-                <b><a class="link-footer" href="https://twitter.com/ifheroesserver" target="_blank">Twitter</a></b>
+                <b><a class="link-footer" href="https://twitter.com/ifheroesserver" target="_blank"><?php echo $data_lang->socials[0]->twitter?></a></b>
                 <br>
-                <b><a class="link-footer" href="https://www.youtube.com/channel/UCavLhm1ZWWMinOcsr6uC_aw" target="_blank">Youtube</a></b>
+                <b><a class="link-footer" href="https://www.youtube.com/channel/UCavLhm1ZWWMinOcsr6uC_aw" target="_blank"><?php echo $data_lang->socials[0]->youtube?></a></b>
                 <br>
-                <b><a class="link-footer" href="https://twitch.tv/ifheroesserver" target="_blank">Twitch</a></b>
+                <b><a class="link-footer" href="https://twitch.tv/ifheroesserver" target="_blank"><?php echo $data_lang->socials[0]->twitch?></a></b>
             </div>
             <div class="col-sm">
                 <br>
-                <b>Quicklinks</b>
+                <b><?php echo $data_lang->footer[0]->quicklinks?></b>
                 <br>
-                <b><a class="link-footer" href="?page=jobs">Bewerben</a></b>
+                <b><a class="link-footer" href="?page=jobs"><?php echo $data_lang->navbar[0]->jobs;?></a></b>
                 <br>
-                <b><a class="link-footer" href="?page=status">Status</a></b>
+                <b><a class="link-footer" href="?page=status"><?php echo $data_lang->navbar[0]->status?></a></b>
                 <br>
-                <b><a class="link-footer" href="?page=about">Über uns!</a></b>
+                <b><a class="link-footer" href="?page=about"><?php echo $data_lang->navbar[0]->about?></a></b>
                 <br>
-                <b><a class="link-footer" href="https://github.com/ifheroes" target="_blank" >GitHub</a></b>
+                <b><a class="link-footer" href="https://github.com/ifheroes" target="_blank" ><?php echo $data_lang->navbar[0]->github?></a></b>
                 <br>
-                <b><a class="link-footer" href="https://github.com/ifheroes/website">Inhalte</a></b>
+                <b><a class="link-footer" href="https://github.com/ifheroes/website"><?php echo $data_lang->footer[0]->contents?></a></b>
             </div>
             <div class="col-sm">
                 <br>
-                <b>Community</b>
+                <b><?php echo $data_lang->footer[0]->community?></b>
                 <br>
-                <b><a class="link-footer" href="https://ifheroes.de/discord">Discord</a></b>
+                <b><a class="link-footer" href="https://ifheroes.de/discord"><?php echo $data_lang->socials[0]->discord?></a></b>
                 <br>
             </div>
         </div>
@@ -49,27 +49,27 @@
         <div class="row">
             <div class="col-sm-2">
                 <center style="font-size: xx-small; text-align: left;">
-                    Copyright © 2017 - <?php echo date("Y"); ?> Infinityheroes. <?php echo $lang['copy_footer']; ?>
+                    Copyright © 2017 - <?php echo date("Y"); ?> Infinityheroes. <?php echo $data_lang->footer[0]->brand?>
                 </center>
             </div>
             <div class="col-sm">
                 <center>
                     <a class="link-footer" href="?page=legal&notice">
-                        <?php echo $lang['legal_team_footer']; ?>
+                    <?php echo $data_lang->footer[0]->legal;?>
                     </a>
                 </center>
             </div>
 <!--             <div class="col-sm">
                 <center>
                     <a class="link-footer" href="?page=legal&terms">
-                        <?php echo $lang['terms_team_footer']; ?>
+                        <?php echo $data_lang->footer[0]->terms;?>
                     </a>
                 </center>
             </div> -->
             <div class="col-sm">
                 <center>
                     <a class="link-footer" href="?page=legal&privacy">
-                        <?php echo $lang['privacy_team_footer']; ?>
+                    <?php echo $data_lang->footer[0]->privacy;?>
                     </a>
                 </center>
             </div>

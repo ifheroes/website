@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <a class="navbar-brand" href="index.php">
             <img class="avatar" src="assets/img/infh-astro-blue.png">
-            <text class="color-font" style="font-family: 'NTR' ;margin-left: 7px; color:#333;">INFINITYHEROES</text>
+            <text class="color-font" style="font-family: 'NTR' ;margin-left: 7px; color:#333;"><?php echo $data_lang->navbar[0]->title;?></text>
 
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,16 +14,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="?page=jobs"><?php echo $lang['jobs_nav'];?> <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="?page=jobs"><?php echo $data_lang->navbar[0]->jobs;?><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="?page=status"><?php echo $lang['status_nav'];?> <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="?page=status"><?php echo $data_lang->navbar[0]->status;?><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="?page=about"><?php echo $lang['about'];?> <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="?page=about"><?php echo $data_lang->navbar[0]->about;?><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://github.com/ifheroes"><b><?php echo $lang['github'];?></b><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="https://github.com/ifheroes"><b><?php echo $data_lang->navbar[0]->github;?></b><span class="sr-only">(current)</span></a>
                 </li>                 
             </ul>
         </div>
@@ -45,28 +45,28 @@
             </div>
             <div class="col col-lg-2">
                 <p></p>
-                <h3 style="font-family: 'NTR';margin-left: -90px;padding-top: 9px; color:white;">INFINITYHEROES</h3>
+                <h3 style="font-family: 'NTR';margin-left: -90px;padding-top: 9px; color:white;"><?php echo $data_lang->navbar[0]->title;?></h3>
                 </a>
             </div>
             <div class="col col-lg-5">
                 <br>
                 <div class="dropdown" style="margin-right: 6px;">
-                    <a href="index.php?page=jobs" class="link-no-deco" style="margin-right: 12px;"><?php echo $lang['jobs_nav'];?></a>
+                    <a href="index.php?page=jobs" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->jobs;?></a>
                     <br>
                     <br>
                 </div>
                 <div class="dropdown" style="margin-right: 6px;">
-                    <a href="index.php?page=status" class="link-no-deco" style="margin-right: 12px;"><?php echo $lang['status_nav'];?></a>
+                    <a href="index.php?page=status" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->status;?></a>
                     <br>
                     <br>
                 </div>
                 <div class="dropdown" style="margin-right: 6px;">
-                    <a href="index.php?page=about" class="link-no-deco" style="margin-right: 12px;"><?php echo $lang['about'];?></a>
+                    <a href="index.php?page=about" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->about;?></a>
                     <br>
                     <br>
                 </div>
                 <div class="dropdown" style="margin-right: 6px;">
-                    <b><a href="https://github.com/ifheroes" target="_blank" class="link-no-deco" style="margin-right: 12px;"><?php echo $lang['github'];?></b></a>
+                    <b><a href="https://github.com/ifheroes" target="_blank" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->github;?></b></a>
                     <br>
                     <br>
                 </div>

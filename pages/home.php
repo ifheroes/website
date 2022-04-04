@@ -96,33 +96,6 @@
 
 </center>
 
-<!-- Support for Dynmap  -->
-<!-- <iframe src="http://[::1]:8123/" width="90%" height="599">
-  <p>Your browser does not support iframes.</p>
-</iframe> -->
-
-<!--###-->
-<!-- <br>
-<br>
-<center>
-    <p>
-    </p>
-    <h3>Hier findet ihr uns auch!</h3>
-    <text class="font-color">Unser Discord-Server ist immer da, wenn du jemanden zum Reden oder Spielen suchst! </text>
-    <p></p>
-</center>
-<p>
-<div class="container">
-    <br>
-    <div class="row ">
-        <div class="col-sm">
-            <center>
-                <iframe src="https://discord.com/widget?id=355790224527327232&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" style="box-shadow: 4px 7px 65px -21px #16181b;"></iframe>
-            </center>
-            <br>
-        </div>
-    </div>
-</div> -->
 
 <!-- FAQ Übersicht allgemein -->
 <?php

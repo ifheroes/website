@@ -1,6 +1,7 @@
 {
   "navbar": [
     {
+      "title":"INFINITYHEROES",
       "jobs": "Bewerben",
       "github": "Github",
       "about": "Über uns",
@@ -17,13 +18,32 @@
       "FAQ_main" : "Allgemeines FAQ"
     }
   ],
+  "socials": [
+    {
+      "twitter":"Twitter",
+      "discord":"Discord",
+      "youtube":"Youtube",
+      "twitch":"Twitch"
+    }
+  ],
+  "status": [
+    {
+      "service_not_live":"Ist ein Dienst aktuell nicht erreichbar? Schreibe uns auf Discord.",
+      "status_header":"Verfügbarkeit der Dienste von Infinityheroes",
+      "get_help":"Hilfe erhalten"
+    }
+  ],
   "footer": [
     {
       "brand": "Made with ❤ by Heroes",
       "rules": "Regeln",
       "legal": "Impressum",
       "terms": "Nutzungsbedingungen",
-      "privacy": "Datenschutz"
+      "privacy": "Datenschutz",
+      "contents": "Inhalte",
+      "socials": "Social Media",
+      "quicklinks": "Quicklinks",
+      "community": "Community"
     }
   ]
 }

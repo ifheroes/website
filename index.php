@@ -48,13 +48,12 @@ $website_url = 'http://192.168.178.40/website/'; ///PUT A SLASH AFTER URL FOR AS
 
 include('system/pages.php'); /* Alle registrierten PHP dateien */
 include('system/json_files.php'); /* Alle Json Dateien mit Informationen zu webinhalten */
-include('pages/lang/lang.php');
+
 
 /*Direkter Import der Sprach-Inhalte*/
 
 // get content form json file content/lang.json via system/lang.php 
 $data_lang = json_decode(file_get_contents('content/lang.json', true));
-
 
 ?>
     <html>
