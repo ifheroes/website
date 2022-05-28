@@ -33,6 +33,11 @@
       "get_help":"Hilfe erhalten"
     }
   ],
+  "jobs": [
+    {
+      "no_jobs":"Vielen Dank für dein Interesse ❤, aber leider suchen wir aktuell keine neuen Mitglieder für unser Team."
+    }
+  ],
   "footer": [
     {
       "brand": "Made with ❤ by Heroes",

@@ -19,11 +19,13 @@ $obj = json_decode($data);
 <div class="container">
         <div class="row">
             <?php
+
                 foreach($obj as $mydata) ///Get data foreach entry in lines etc.
                 {
 
                     if ($mydata->active !== "true") { //Check if desc is online if not show nothing
-                        
+      
+
                     } else {
             ?>
                 <!--HTML elements-->
@@ -35,11 +37,20 @@ $obj = json_decode($data);
                         <div class="shadow-box-2">
                             <h5>Deine Aufgabe:</h5>
                             <?php echo $mydata->text . "<br>";?> <!--Print out text form specific line-->
-                        
-                        </div><br>
+<!--                             <p>
+                                <a href="<?php echo $mydata->link; ?>">Jetzt Bewerben</a>
+                            </p> -->
+<br>
+                            <center>
+                                <a href="<?php echo $mydata->link; ?>">
+                                    <input type="submit" class="btn-grad-top" value="JETZT MITMACHEN" style="color: white; border: none;">
+                                </a>
+                            </center>
+                        </div>
+                        <br>
                     </div>
             <?php
-                     }
+                     } 
                 } 
 ?>
         </div>

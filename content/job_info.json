@@ -1,19 +1,19 @@
 [{
-    "title" : "Entwicker/in",
-    "text" :  "Begleite Open-Source Projekte in einem eingespielten Team bis zum Erfolg. Werde ein teil einer großen Idee!",
+    "title" : "Entwicker/in Spigot & Bungeecord",
+    "text" :  "Begleite Open-Source Projekte in einem eingespielten Team bis zum Erfolg. <br>Werde ein Teil eines kreativen dynamischen Teams!",
     "image_link" : "assets/img/jobs/entwickler.jpg", 
-    "link" : "discord.com/",
+    "link" : "mailto:jobs@ifheroes.de?subject=Online%20Bewerbung%20als%20Entwicker/in",
     "active" : "true"
   }, {
-    "title" : "Architekt/in",
+    "title" : "Architekt/in Full Stack",
     "text" :  "Erbaue neue Landschaften und begleite Abschnitte bis über den Roll-out hinaus. Hinterlasse deine Handschrift auf unserem Server und hilf uns dabei, unsere Welt ein wenig schöner zu machen.",
     "image_link" : "assets/img/jobs/architekt.jpg", 
-    "link" : "discord.com/",
+    "link" : "mailto:jobs@ifheroes.de?subject=Online%20Bewerbung%20als%20Architekt/in",
     "active" : "true"
   },{
-    "title" : "Story Writer/in",
-    "text" :  "Begleite Open-Source Projekte in einem eingespielten Team bis zum Erfolg.",
+    "title" : "Story Writer/in Spielgestaltung",
+    "text" :  "Begleite Open-Source Projekte in einem eingespielten Team bis zum Erfolg. <br>Als Story Writer/in schreibst, und gestaltest du diverse Szenen und Geschichten auf unserem Server mit.",
     "image_link" : "assets/img/jobs/story-writer.jpg", 
-    "link" : "discord.com/",
+    "link" : "mailto:jobs@ifheroes.de?subject=Online%20Bewerbung%20als%20Story-Writer/in",
     "active" : "true"
   }]
