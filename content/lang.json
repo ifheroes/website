@@ -1,32 +1,54 @@
 {
-  "german": [
+  "navbar": [
     {
-      "navbar": [
-        {
-          "jobs" : "Bewerben",
-          "github" :  "Github",
-          "about": "Über uns",
-          "status":"Status"
-        }
-      ]
-    },
+      "title":"INFINITYHEROES",
+      "jobs": "Bewerben",
+      "github": "Github",
+      "about": "Über uns",
+      "status": "Status"
+    }
+  ],
+  "home": [
     {
-      "home": [
-        {
-          "Arrow_animation" : "Klick hier um zu starten"
-        }
-      ]
-    },
+      "show_discord_title":"Discord-Server",
+      "show_discord_players":"Benutzer Online",
+      "show_mc_title":"Minecraft-Server",
+      "show_mc_players":"Spieler Online",
+      "Arrow_animation" : "Klick hier um zu starten",
+      "FAQ_main" : "Allgemeines FAQ"
+    }
+  ],
+  "socials": [
     {
-      "footer": [
-        {
-          "brand" : "Made with ❤ by Heroes",
-          "rules":"Regeln",
-          "legal":"Impressum",
-          "terms":"Nutzungsbedingungen",
-          "privacy":"Datenschutz"
-        }
-      ]
+      "twitter":"Twitter",
+      "discord":"Discord",
+      "youtube":"Youtube",
+      "twitch":"Twitch"
+    }
+  ],
+  "status": [
+    {
+      "service_not_live":"Ist ein Dienst aktuell nicht erreichbar? Schreibe uns auf Discord.",
+      "status_header":"Verfügbarkeit der Dienste von Infinityheroes",
+      "get_help":"Hilfe erhalten"
+    }
+  ],
+  "jobs": [
+    {
+      "no_jobs":"Vielen Dank für dein Interesse ❤, aber leider suchen wir aktuell keine neuen Mitglieder für unser Team."
+    }
+  ],
+  "footer": [
+    {
+      "brand": "Made with ❤ by Heroes",
+      "rules": "Regeln",
+      "legal": "Impressum",
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutz",
+      "contents": "Inhalte",
+      "socials": "Social Media",
+      "quicklinks": "Quicklinks",
+      "community": "Community"
     }
   ]
 }

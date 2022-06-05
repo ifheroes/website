@@ -16,10 +16,6 @@
     <!--FAQ zu den Jobs-->
     <?php include('jobs-faq-class.php'); ?><br><br>
 
-        <center>
-            <a href="https://discord.gg/f564YKjauV">
-                <input type="submit" class="btn-grad-top" value="JETZT MITMACHEN" style="color: white; border: none;">
-            </a>
-        </center>
+
 
 </body>
