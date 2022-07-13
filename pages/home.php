@@ -18,13 +18,13 @@
                 <div class="col-sm">
                     <text class="font-color">
                         <a target="_blank" href="https://ifheroes.de/discord" class="link-no-deco">
-                            <h3><i class="fab fa-discord"></i> <?php echo $data_lang->home[0]->show_discord_title;?></h3>
+                            <h3><i class="fab fa-discord"></i> <?php echo $data_lang->home[0]->show_discord_title; ?></h3>
                             <br>
                             <?php
                             $DiscordjsonData = file_get_contents("https://discordapp.com/api/guilds/355790224527327232/widget.json");
                             $data = json_decode($DiscordjsonData, true);
                             echo $data['presence_count'];
-                            ?> <?php echo $data_lang->home[0]->show_discord_players;?>
+                            ?> <?php echo $data_lang->home[0]->show_discord_players; ?>
                         </a>
                     </text>
                 </div>
@@ -36,12 +36,12 @@
             <div class="shadow-box">
                 <div class="col-sm">
                     <text class="font-color">
-                        <h3><i class="fas fa-cube"></i> <?php echo $data_lang->home[0]->show_mc_title;?></h3>
+                        <h3><i class="fas fa-cube"></i> <?php echo $data_lang->home[0]->show_mc_title; ?></h3>
                         <br>
                         <?php
                         $status = json_decode(file_get_contents('https://api.mcsrvstat.us/2/ifheroes.de'));
                         echo $status->players->online;
-                        ?> <?php echo $data_lang->home[0]->show_mc_players;?>
+                        ?> <?php echo $data_lang->home[0]->show_mc_players; ?>
                     </text>
                 </div>
             </div>
@@ -60,7 +60,8 @@
     <br>
     <br>
     <br>
-    <h6><?php echo $data_lang->home[0]->Arrow_animation; ///get data from lang.json in index?></h6>
+    <h6><?php echo $data_lang->home[0]->Arrow_animation; ///get data from lang.json in index
+        ?></h6>
     <br> <br>
 
 
@@ -96,6 +97,8 @@
 
 </center>
 
+<!-- NEWS Tab -->
+<?php include $page['news']; ?>
 
 <!-- FAQ Übersicht allgemein -->
 <?php
@@ -116,7 +119,8 @@ $count = count($obj);
             <center>
                 <br>
                 <br>
-                <h3><?php echo $data_lang->home[0]->FAQ_main; ///get data from lang.json in index?></h3>
+                <h3><?php echo $data_lang->home[0]->FAQ_main; ///get data from lang.json in index
+                    ?></h3>
             </center>
             <?php
             foreach ($obj as $mydata) ///Get data foreach entry in lines etc.
