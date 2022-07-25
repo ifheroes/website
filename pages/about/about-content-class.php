@@ -36,6 +36,11 @@ $count = count($obj);
             <?php
         }
         ?>
+<!--         <p>
+            <br>
+         <h3><?php /* echo $data_lang->aboutus[0]->exteam_header */?></h3>
+         <text><?php /* echo $data_lang->aboutus[0]->exteam_subtitle */?></text>
+        </p> -->
         </div>
     </div>
 </div>
