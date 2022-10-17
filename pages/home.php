@@ -23,12 +23,13 @@
         <br>
         <br>
         <br>
+        <a href="#start" class="link-no-deco">
         <h6><?php echo $data_lang->home[0]->Arrow_animation; ///get data from lang.json in index
             ?></h6>
         <br> <br>
 
 
-        <a href="#start" class="link-no-deco">
+
             <div class="bounce">
                 <img src="<?php echo $website_url; ?>/assets/img/arrow-down.svg" width="30px">
             </div>
