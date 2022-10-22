@@ -1,30 +1,22 @@
 {
   "survival": [
     {
-      "title": "Gibt es besondere anforderungen?",
-      "text": "<b>Das wünschen wir uns von dir</b> <br>1. Ausdauer für langanhaltende Projekte<br>2. Freude an der Arbeit im Team<br>3. Deutsch in Sprache und Schrift <br>4. Ggf. Kenntnisse über den Bereich den du bei uns mitgestalten möchtest."
+      "title": "titel1",
+      "text": "text2"
     },
     {
-      "title": "Wie bewerbe ich mich?",
-      "text": "Deine Bewerbung nehmen wir via Mail unter <b>jobs@ifheroes.de</b> entgegen."
-    },
-    {
-      "title": "Gibt es die möglichkeit Support Aufgaben zu übernehmen?",
-      "text": "Wir suchen momentan keine Personen für den Spieler-Support. Sobald es hier Änderungen gibt, werden diese im Discord in der Bewerbungskategorie angekündigt."
+      "title": "titel2",
+      "text": "text2"
     }
   ],
   "sgduels": [
     {
-      "title": "Gibt es besondere anforderungen?",
-      "text": "<b>Das wünschen wir uns von dir</b> <br>1. Ausdauer für langanhaltende Projekte<br>2. Freude an der Arbeit im Team<br>3. Deutsch in Sprache und Schrift <br>4. Ggf. Kenntnisse über den Bereich den du bei uns mitgestalten möchtest."
+      "title": "titel1",
+      "text": "text2"
     },
     {
-      "title": "Wie bewerbe ich mich?",
-      "text": "Deine Bewerbung nehmen wir via Mail unter <b>jobs@ifheroes.de</b> entgegen."
-    },
-    {
-      "title": "Gibt es die möglichkeit Support Aufgaben zu übernehmen?",
-      "text": "Wir suchen momentan keine Personen für den Spieler-Support. Sobald es hier Änderungen gibt, werden diese im Discord in der Bewerbungskategorie angekündigt."
+      "title": "titel2",
+      "text": "text2"
     }
   ]
 }
