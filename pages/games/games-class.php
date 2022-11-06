@@ -7,7 +7,7 @@
             <?php echo $data_lang->games[0]->survival_text; ?>
             <br><br>
             <p>
-                <button class="games_button">Dynmap</button>
+                <button class="games_button" onClick="window.location.href='https://map.ifheroes.de';">Dynmap</button>
                 <button class="games_button">Nutzungsbedingungen / Regeln</button>
                 <button class="games_button" onClick="window.location.href='#Survival';">FAQ</button>
             </p>
