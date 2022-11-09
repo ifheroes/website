@@ -63,8 +63,6 @@
 
 </center>
 
-    <!-- NEWS Tab -->
-    <?php include $page['news']; ?>
 
 <!-- FAQ Übersicht allgemein -->
 <?php

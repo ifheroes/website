@@ -32,8 +32,8 @@
                     <h2 id="m3">Verantwortlicher</h2>
                     <p>Christopher Oneisz<br>Herrschaftsstraße 3/4<br>73087 Bad Boll</p>
                     Vertretungsberechtigte Personen: <p>Lukas Jantscher</p>
-                    E-Mail-Adresse: <p><a href="mailto:admins@ifheroes.de">admins@ifheroes.de</a></p>
-                    Impressum: <p><a href="https://ifheroes.de/index.php?page=legal" target="_blank">https://ifheroes.de/index.php?page=legal</a>¬ice</p>
+                    E-Mail-Adresse: <p><a href="mailto:service@infinityheroes.de">service@infinityheroes.de</a></p>
+                    Impressum: <p><a href="https://ifheroes.de/index.php?page=legal&notice" target="_blank">https://ifheroes.de/index.php?page=legal&notice</a></p>
                     <h2 id="mOverview">Übersicht der Verarbeitungen</h2>
                     <p>Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.</p>
                     <h3>Arten der verarbeiteten Daten</h3>
@@ -225,10 +225,9 @@
                     <p>Christopher Paul Oneisz<br />Herrschaftsstra&szlig;e 3/4<br />73087 Bad
                         Boll<br /><br /><strong>Vertretungsberechtigt:</strong><br />Lukas Jantscher
                     <p>
-                        <!-- <strong>Kontaktformular</strong><br /><a
-                            href=\"https://infinityheroes.de/index.php?page=contact\">https://infinityheroes.de/index.php?page=contact</a> -->
+
                     </p>
-                    <p><strong>Kontakt</strong><br />E-Mail: <a href=\"mailto:info@ifheroes.de\">info@ifheroes.de</a></p>
+                    <p><strong>Kontakt</strong><br />E-Mail: <a href=\"mailto:service@infinityheroes.de\">service@infinityheroes.de</a></p>
                     <p><br />Verantwortlich f&uuml;r den Inhalt nach &sect; 55 Abs. 2 RStV sind die jeweiligen
                         Moderatoren und Verfasser, von Beitr&auml;gen.</p>
                     <p><br /><strong>Haftung f&uuml;r Inhalte</strong></p>

@@ -8,7 +8,6 @@
             <br><br>
             <p>
                 <button class="games_button" onClick="window.location.href='https://map.ifheroes.de';">Dynmap</button>
-                <button class="games_button">Nutzungsbedingungen / Regeln</button>
                 <button class="games_button" onClick="window.location.href='#Survival';">FAQ</button>
             </p>
         </div>
@@ -39,7 +38,6 @@
 
 
             <p>
-                <button class="games_button">Nutzungsbedingungen / Regeln</button>
                 <button class="games_button" onClick="window.location.href='#SGDuels';">FAQ</button>
             </p>
         </div>

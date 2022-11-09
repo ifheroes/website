@@ -1,13 +1,20 @@
 [{
     "service" : "minecraft",
-    "title" :  "Minecraft",
+    "title" :  "Proxy",
     "image_link" : "./assets/img/status-image.jpg", 
     "ip" : "ifheroes.de",
     "port" : "25565"
+  },  
+  {
+    "service" : "analytics",
+    "title" :  "Monitoring",
+    "image_link" : "./assets/img/status-image.jpg", 
+    "ip" : "plan.ifheroes.de",
+    "port" : "80"
   }, 
   {
-    "service" : "discord",
-    "title" :  "Discord Bot",
+    "service" : "webserver",
+    "title" :  "Webseite",
     "image_link" : "./assets/img/status-image.jpg", 
     "ip" : "ifheroes.de",
     "port" : "80"
