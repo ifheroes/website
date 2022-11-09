@@ -1,6 +1,6 @@
 <?php
 
-$website_url = 'http://192.168.178.40/website/'; ///PUT A SLASH AFTER URL FOR ASSETS
+$website_url = 'http://localhost/website/'; ///PUT A SLASH AFTER URL FOR ASSETS
 
 
 

@@ -1,0 +1,22 @@
+{
+  "survival": [
+    {
+      "title": "titel1",
+      "text": "text2"
+    },
+    {
+      "title": "titel2",
+      "text": "text2"
+    }
+  ],
+  "sgduels": [
+    {
+      "title": "titel1",
+      "text": "text2"
+    },
+    {
+      "title": "titel2",
+      "text": "text2"
+    }
+  ]
+}

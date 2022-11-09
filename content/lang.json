@@ -5,7 +5,8 @@
       "jobs": "Bewerben",
       "github": "Github",
       "about": "Über uns",
-      "status": "Status"
+      "status": "Status",
+      "games": "Games"
     }
   ],
   "home": [
@@ -15,7 +16,8 @@
       "show_mc_title":"Minecraft-Server",
       "show_mc_players":"Spieler Online",
       "Arrow_animation" : "Klick hier um zu starten",
-      "FAQ_main" : "Allgemeines FAQ"
+      "FAQ_main" : "Allgemeines FAQ",
+      "games" : "Games by infinityheroes"
     }
   ],
   "socials": [
@@ -33,9 +35,26 @@
       "get_help":"Hilfe erhalten"
     }
   ],
+  "games": [
+    {
+      "survival_title":"Survival",
+      "survival_text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "survival_image":"https://cdn.discordapp.com/attachments/923193357465948191/1031546344009113600/Rectangle_2.png",
+      "sgd_title":"SGDuels",
+      "sgd_text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "sgd_image":"https://cdn.discordapp.com/attachments/923193357465948191/1031546344009113600/Rectangle_2.png",
+      "games_help":"Hilfe"
+    }
+  ],
   "jobs": [
     {
       "no_jobs":"Vielen Dank für dein Interesse ❤, aber leider suchen wir aktuell keine neuen Mitglieder für unser Team."
+    }
+  ],
+  "aboutus": [
+    {
+      "exteam_header":"Unsere Helden!",
+      "exteam_subtitle":"Lang lebe Infinityheroes!"
     }
   ],
   "footer": [

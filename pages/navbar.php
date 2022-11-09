@@ -17,7 +17,7 @@
                     <a class="nav-link" href="?page=jobs"><?php echo $data_lang->navbar[0]->jobs;?><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="?page=status"><?php echo $data_lang->navbar[0]->status;?><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="?page=games"><?php echo $data_lang->navbar[0]->games;?><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="?page=about"><?php echo $data_lang->navbar[0]->about;?><span class="sr-only">(current)</span></a>
@@ -56,7 +56,7 @@
                     <br>
                 </div>
                 <div class="dropdown" style="margin-right: 6px;">
-                    <a href="index.php?page=status" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->status;?></a>
+                    <a href="index.php?page=games" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->games;?></a>
                     <br>
                     <br>
                 </div>

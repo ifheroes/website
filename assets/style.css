@@ -1495,3 +1495,14 @@ input[type="checkbox"]:checked+label:before {
         border: 3px solid rgb(255, 255, 255) !important;
         text-align: center;
     }
+
+    .games_button {
+        background-color: rgb(116, 116, 255);
+        color: white;
+        border: 10px solid transparent;
+        border-radius: 10px;
+    }
+    .games_button:hover{
+        background-color: rgb(91, 91, 244);
+        transition: 1s;
+    }
