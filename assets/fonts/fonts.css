@@ -1,0 +1,15 @@
+/*FONTS*/
+@font-face {
+    font-family: "Montserrat";
+    src: url('Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url('Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "NTR";
+    src: url('NTR-Regular_ifheroes_title.ttf') format('truetype');
+}
