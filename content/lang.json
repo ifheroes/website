@@ -38,11 +38,11 @@
   "games": [
     {
       "survival_title":"Survival",
-      "survival_text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "survival_image":"https://cdn.discordapp.com/attachments/923193357465948191/1031546344009113600/Rectangle_2.png",
+      "survival_text":"Survival ist ein Spielmodus in dem Du Bauen und mit deinen Freunden Spielen kannst. Auf unserem Survival-Server stehen dir neben Grundstücken die Du in besitz nehmen kannst, auch Shops und viele weitere Funktionen zur Verfügung. ",
+      "survival_image":"./assets/img/Rectangle_2.png",
       "sgd_title":"SGDuels",
-      "sgd_text":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "sgd_image":"https://cdn.discordapp.com/attachments/923193357465948191/1031546344009113600/Rectangle_2.png",
+      "sgd_text":"Fordere deine Freunde und andere Mitspieler zu einem Kampf im Survivalgames Duel heraus. Finde Kisten auf bis zu 20 verschiedenen Karten und erringe den Sieg!",
+      "sgd_image":"./assets/img/Rectangle_1.png",
       "games_help":"Hilfe"
     }
   ],
@@ -55,6 +55,11 @@
     {
       "exteam_header":"Unsere Helden!",
       "exteam_subtitle":"Lang lebe Infinityheroes!"
+    }
+  ],
+  "news": [
+    {
+      "back_home":"Zurück zur Startseite"
     }
   ],
   "footer": [

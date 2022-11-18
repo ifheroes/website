@@ -1,22 +1,18 @@
 {
   "survival": [
     {
-      "title": "titel1",
-      "text": "text2"
+      "title": "Ich habe weitere Fragen zu Survival, wo kann ich diese stellen?",
+      "text": "Du fragen zu Survival über unseren Discord <a href='https://ifheroes.de/discord'>ifheroes.de/discord</a> stellen."
     },
     {
-      "title": "titel2",
-      "text": "text2"
+      "title": "Wieso muss ich zu beginn ein Tutorial Absolvieren?",
+      "text": "Das Tutorial für Survival ist ein wichtiger Teil des Server-Konzepts. Durch das Tutorial versuchen wir dir diverse Funktionen schnell und einfach beizubringen, ebenso ist es wichtig, da gewisse Regeln auf unserem Server gibt, die es zu beachten gilt."
     }
   ],
   "sgduels": [
     {
-      "title": "titel1",
-      "text": "text2"
-    },
-    {
-      "title": "titel2",
-      "text": "text2"
+      "title": "Warum muss ich das Tutorial für Survival mitmachen?",
+      "text": "Der Modus SGDuels ist nicht teil des „Mainframes‟ von infinityheroes.de, SGDuels ist daher zur Zeit nur über Survival zugänglich."
     }
   ]
 }

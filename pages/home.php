@@ -48,23 +48,10 @@
 <!--#####-->
 <div id="start"></div>
 <br>
-<center>
 
-    <div class="container">
-        <br>
-        <div class="row ">
-            <div class="col-sm">
-                <div class="shadow-box-blog" style="cursor:auto ;background-color: #0093ff; ">
-                    <h4><i class="fa fa-info"></i> Wir arbeiten aktuell an einer Fortsetzung unseres Servers. Mehr Infos folgen bald. </h4>
-                </div>
-            </div>
-        </div>
-        <p></p>
-
-</center>
-
-    <!-- NEWS Tab -->
-    <?php include $page['news']; ?>
+<!-- NEWS Tab -->
+<div id="updates"></div>
+<?php include $page['news']; ?>
 
 <!-- FAQ Übersicht allgemein -->
 <?php

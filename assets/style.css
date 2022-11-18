@@ -2,7 +2,7 @@
 
     :root {
         --ifheroes_white: #fff;
-        --ifheroes_dark: #222222; 
+        --ifheroes_dark: #2a2929; 
       }
     
 
@@ -431,7 +431,7 @@
         .shadow-box-2 {
             border: 30px solid var(--ifheroes_dark);
             border-radius: 5px;
-            box-shadow: 0px 3px 34px -12px rgba(10, 8, 10, 0.849);
+            box-shadow: 0px 3px 34px -12px rgba(27, 22, 27, 0.849);
             background-color: var(--ifheroes_dark);
             word-break: keep-all;
             font-style: normal;
