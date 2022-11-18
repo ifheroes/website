@@ -53,6 +53,7 @@
 <div id="updates"></div>
 <?php include $page['news']; ?>
 
+
 <!-- FAQ Übersicht allgemein -->
 <?php
 
