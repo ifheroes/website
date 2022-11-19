@@ -3,7 +3,6 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <a class="navbar-brand" href="index.php">
             <img class="avatar" src="assets/img/infh-astro-blue.png">
-            <text class="color-font" style="font-family: 'NTR' ;margin-left: 7px; color:#333;"><?php echo $data_lang->navbar[0]->title;?></text>
 
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +44,7 @@
             </div>
             <div class="col col-lg-2">
                 <p></p>
-                <h3 style="font-family: 'NTR';margin-left: -90px;padding-top: 9px; color:white;"><?php echo $data_lang->navbar[0]->title;?></h3>
+                <h3 class="title_ifheroes"><?php echo $data_lang->navbar[0]->title;?></h3>
                 </a>
             </div>
             <div class="col col-lg-5">
