@@ -1,3 +1,4 @@
+<meta name="robots" content="noindex" />
 <div class="container ">
     <div class="center">
         <div class="row">
