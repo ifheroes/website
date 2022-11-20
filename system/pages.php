@@ -20,11 +20,19 @@ $page['support'] = 'pages/support/index.php';
 ///NAVBARS
 $page['normal'] = 'pages/navbar/normal.php';
 
-
 ///NEWS
+$page['news'] = 'pages/news/news-overview.php';
+
+///NEWS-THREAD
+$page['news-th'] = 'pages/news/news-thread-overview.php';
+
+///ABOUT
 $page['about'] = 'pages/about/about.php';
 
 ///STATUS
-$page['status'] = 'pages/status/status-overview.php'
+$page['status'] = 'pages/status/status-overview.php';
+
+///STATUS
+$page['games'] = 'pages/games/games-overview.php';
 
 ?>

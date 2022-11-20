@@ -3,7 +3,6 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <a class="navbar-brand" href="index.php">
             <img class="avatar" src="assets/img/infh-astro-blue.png">
-            <text class="color-font" style="font-family: 'NTR' ;margin-left: 7px; color:#333;"><?php echo $data_lang->navbar[0]->title;?></text>
 
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +16,7 @@
                     <a class="nav-link" href="?page=jobs"><?php echo $data_lang->navbar[0]->jobs;?><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="?page=status"><?php echo $data_lang->navbar[0]->status;?><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="?page=games"><?php echo $data_lang->navbar[0]->games;?><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="?page=about"><?php echo $data_lang->navbar[0]->about;?><span class="sr-only">(current)</span></a>
@@ -45,7 +44,7 @@
             </div>
             <div class="col col-lg-2">
                 <p></p>
-                <h3 style="font-family: 'NTR';margin-left: -90px;padding-top: 9px; color:white;"><?php echo $data_lang->navbar[0]->title;?></h3>
+                <h3 class="title_ifheroes"><?php echo $data_lang->navbar[0]->title;?></h3>
                 </a>
             </div>
             <div class="col col-lg-5">
@@ -56,7 +55,7 @@
                     <br>
                 </div>
                 <div class="dropdown" style="margin-right: 6px;">
-                    <a href="index.php?page=status" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->status;?></a>
+                    <a href="index.php?page=games" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->games;?></a>
                     <br>
                     <br>
                 </div>

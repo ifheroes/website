@@ -1,5 +1,3 @@
-
-
 <?php
 
 // get content form json file content/job_info.json via system/json_files.php 
@@ -15,27 +13,33 @@ $count = count($obj);
 <div class="container">
     <div class="row">
         <div class="col-sm">
-        <?php
-        foreach ($obj as $mydata) ///Get data foreach entry in lines etc.
-        {
-        ?>
-        <p>
-
-        <div class="shadow-box-blog" style="cursor:auto ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $mydata->image_link;?>') center scroll ; ">
-                            <h3><?php echo $mydata->title . "<br>";?></h3>
-                        </div>
-                        <br>
-
-
-                    <p>
-                    <?php echo "<br>" . $mydata->text; //get some data from json file ?>
-                    </p>
-
-
-        </p>
             <?php
-        }
-        ?>
+            foreach ($obj as $mydata) ///Get data foreach entry in lines etc.
+            {
+            ?>
+                <p>
+
+                <div class="shadow-box-blog" style="cursor:auto ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $mydata->image_link; ?>') center scroll ; ">
+                    <h3><?php echo $mydata->title . "<br>"; ?></h3>
+                </div>
+                <br>
+
+
+                <p>
+                    <?php echo "<br>" . $mydata->text; //get some data from json file 
+                    ?>
+                </p>
+
+
+                </p>
+            <?php
+            }
+            ?>
+            <!--         <p>
+            <br>
+         <h3><?php /* echo $data_lang->aboutus[0]->exteam_header */ ?></h3>
+         <text><?php /* echo $data_lang->aboutus[0]->exteam_subtitle */ ?></text>
+        </p> -->
         </div>
     </div>
 </div>

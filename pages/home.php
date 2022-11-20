@@ -11,90 +11,47 @@
     <br>
     <br>
 
-    <!-- Zeigt alle User auf Discord  -->
-    <div class="row">
-        <div class="col-sm">
-            <div class="shadow-box">
-                <div class="col-sm">
-                    <text class="font-color">
-                        <a target="_blank" href="https://ifheroes.de/discord" class="link-no-deco">
-                            <h3><i class="fab fa-discord"></i> <?php echo $data_lang->home[0]->show_discord_title;?></h3>
-                            <br>
-                            <?php
-                            $DiscordjsonData = file_get_contents("https://discordapp.com/api/guilds/355790224527327232/widget.json");
-                            $data = json_decode($DiscordjsonData, true);
-                            echo $data['presence_count'];
-                            ?> <?php echo $data_lang->home[0]->show_discord_players;?>
-                        </a>
-                    </text>
-                </div>
-            </div>
-        </div>
+    <?php include('pages/home/online_players.php'); //import online players 
+    ?>
 
-        <!-- Zeigt Spieler auf MC -->
-        <div class="col-sm">
-            <div class="shadow-box">
-                <div class="col-sm">
-                    <text class="font-color">
-                        <h3><i class="fas fa-cube"></i> <?php echo $data_lang->home[0]->show_mc_title;?></h3>
-                        <br>
-                        <?php
-                        $status = json_decode(file_get_contents('https://api.mcsrvstat.us/2/ifheroes.de'));
-                        echo $status->players->online;
-                        ?> <?php echo $data_lang->home[0]->show_mc_players;?>
-                    </text>
-                </div>
+
+    <center>
+        </h5>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="#start" class="link-no-deco">
+        <h6><?php echo $data_lang->home[0]->Arrow_animation; ///get data from lang.json in index
+            ?></h6>
+        <br> <br>
+
+
+
+            <div class="bounce">
+                <img src="<?php echo $website_url; ?>/assets/img/arrow-down.svg" width="30px">
             </div>
-        </div>
-    </div>
+        </a>
+    </center>
+    <br>
+    <br> <br>
+    <br>
+    <br>
 
 </div>
-<br>
-
-
-<center>
-    </h5>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h6><?php echo $data_lang->home[0]->Arrow_animation; ///get data from lang.json in index?></h6>
-    <br> <br>
-
-
-    <a href="#start" class="link-no-deco">
-        <div class="bounce">
-            <img src="<?php echo $website_url; ?>/assets/img/arrow-down.svg" width="30px">
-        </div>
-    </a>
-</center>
-<br>
-<br> <br>
-<br>
-<br>
-
+</div>
 </div>
 
 
 <!--#####-->
 <div id="start"></div>
 <br>
-<center>
 
-    <div class="container">
-        <br>
-        <div class="row ">
-            <div class="col-sm">
-                <div class="shadow-box-blog" style="cursor:auto ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('https://cdn.discordapp.com/attachments/876387207458455585/939576593616105572/2019-04-19_14.05.36.png') center scroll ; ">
-                    <h4>Wir arbeiten aktuell an einer Fortsetzung unseres Servers. Mehr Infos folgen bald.</h4>
-                </div>
-            </div>
-        </div>
-        <p></p>
-
-</center>
+<!-- NEWS Tab -->
+<div id="updates"></div>
+<?php include $page['news']; ?>
 
 
 <!-- FAQ Übersicht allgemein -->
@@ -116,7 +73,8 @@ $count = count($obj);
             <center>
                 <br>
                 <br>
-                <h3><?php echo $data_lang->home[0]->FAQ_main; ///get data from lang.json in index?></h3>
+                <h3><?php echo $data_lang->home[0]->FAQ_main; ///get data from lang.json in index
+                    ?></h3>
             </center>
             <?php
             foreach ($obj as $mydata) ///Get data foreach entry in lines etc.

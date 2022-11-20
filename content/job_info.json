@@ -1,19 +1,44 @@
-[{
-    "title" : "Entwicker/in Spigot & Bungeecord",
-    "text" :  "Begleite Open-Source Projekte in einem eingespielten Team bis zum Erfolg. <br>Werde ein Teil eines kreativen dynamischen Teams!",
-    "image_link" : "assets/img/jobs/entwickler.jpg", 
-    "link" : "mailto:jobs@ifheroes.de?subject=Online%20Bewerbung%20als%20Entwicker/in",
-    "active" : "true"
-  }, {
-    "title" : "Architekt/in Full Stack",
-    "text" :  "Erbaue neue Landschaften und begleite Abschnitte bis über den Roll-out hinaus. Hinterlasse deine Handschrift auf unserem Server und hilf uns dabei, unsere Welt ein wenig schöner zu machen.",
-    "image_link" : "assets/img/jobs/architekt.jpg", 
-    "link" : "mailto:jobs@ifheroes.de?subject=Online%20Bewerbung%20als%20Architekt/in",
-    "active" : "true"
-  },{
-    "title" : "Story Writer/in Spielgestaltung",
-    "text" :  "Begleite Open-Source Projekte in einem eingespielten Team bis zum Erfolg. <br>Als Story Writer/in schreibst, und gestaltest du diverse Szenen und Geschichten auf unserem Server mit.",
-    "image_link" : "assets/img/jobs/story-writer.jpg", 
-    "link" : "mailto:jobs@ifheroes.de?subject=Online%20Bewerbung%20als%20Story-Writer/in",
-    "active" : "true"
-  }]
+[
+  {
+    "title": "Story Writer/in Spielgestaltung",
+    "text": "Begleite Open-Source Projekte in einem eingespielten Team bis zum Erfolg. <br>Als Story Writer/in schreibst, und gestaltest du diverse Szenen und Geschichten auf unserem Server mit.",
+    "image_link": "assets/img/jobs/story-writer.jpg",
+    "link": "mailto:jobs@ifheroes.de?subject=Online%20Bewerbung%20als%20Story-Writer/in",
+    "active": "false"
+  },
+  {
+    "title": "Entwicker/in Java",
+    "text": "Du übernimmst die Entwicklung von Spigot und Bungeecord Projekten auf unserem Server. Begleite Open-Source Projekte in einem eingespielten Team bis zum Erfolg. <br> <br>Bewirb dich jetzt und werde Teil eines kreativen und dynamischen Teams!",
+    "image_link": "assets/img/jobs/entwickler.jpg",
+    "link": "http://bit.ly/3Gb65W0",
+    "active": "true"
+  },
+  {
+    "title": "Architekt/in",
+    "text": "Erbaue neue Landschaften und begleite Abschnitte bis über den Roll-out hinaus. Hinterlasse deine Handschrift auf unserem Server und hilf uns dabei, unsere Welt ein wenig schöner zu machen.",
+    "image_link": "assets/img/jobs/architekt.jpg",
+    "link": "mailto:jobs@ifheroes.de?subject=Online%20Bewerbung%20als%20Architekt/in",
+    "active": "false"
+  },
+  {
+    "title": "Moderator/in",
+    "text": "Moderiere und unterstütze Spieler auf unserem Server infinityheroes.de. Neben üblichen Support aufgaben, übernimmst du auch die Bestrafung und die Durchsetzung der Regeln. Zudem Gestalltest du das Regelwerk des Servers mit. ",
+    "image_link": "https://images.unsplash.com/photo-1587573089734-09cb69c0f2b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWluZWNyYWZ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
+    "link": "mailto:jobs@ifheroes.de?subject=Online%20Bewerbung%20als%20Moderator/in",
+    "active": "true"
+  },
+  {
+    "title": "Social Media Manager/in",
+    "text": "Starte Kampagnen, gestalte unseren Social Media Auftritt und plane Events für die Community. Du bist als Social Media Manager immer ganz vorne dabei und repräsentierst unseren Server auf den sozialen Netzwerken. ",
+    "image_link": "assets/img/jobs/social-media-manager.jpg",
+    "link": "mailto:jobs@ifheroes.de?subject=Online%20Bewerbung%20als%20Social%20Media%20Manager/in",
+    "active": "false"
+  },
+  {
+    "title": "Initativ Bewerbung",
+    "text": "Du hast lust bei uns mitzumachen? Kein Problem! Bewirb dich spontan.",
+    "image_link": "https://images.unsplash.com/photo-1640079421264-61f50d89a736?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+    "link": "mailto:jobs@ifheroes.de?subject=Online%20Bewerbung%20als%20Initativ%20Bewerbung",
+    "active": "false"
+  }
+]

@@ -5,7 +5,8 @@
       "jobs": "Bewerben",
       "github": "Github",
       "about": "Über uns",
-      "status": "Status"
+      "status": "Status",
+      "games": "Games"
     }
   ],
   "home": [
@@ -15,7 +16,8 @@
       "show_mc_title":"Minecraft-Server",
       "show_mc_players":"Spieler Online",
       "Arrow_animation" : "Klick hier um zu starten",
-      "FAQ_main" : "Allgemeines FAQ"
+      "FAQ_main" : "Allgemeines FAQ",
+      "games" : "Games by infinityheroes"
     }
   ],
   "socials": [
@@ -33,9 +35,32 @@
       "get_help":"Hilfe erhalten"
     }
   ],
+  "games": [
+    {
+      "survival_title":"Survival",
+      "survival_text":"Survival ist ein Spielmodus in dem Du Bauen und mit deinen Freunden Spielen kannst. Auf unserem Survival-Server stehen dir neben Grundstücken die Du in besitz nehmen kannst, auch Shops und viele weitere Funktionen zur Verfügung. ",
+      "survival_image":"./assets/img/Rectangle_2.png",
+      "sgd_title":"SGDuels",
+      "sgd_text":"Fordere deine Freunde und andere Mitspieler zu einem Kampf im Survivalgames Duel heraus. Finde Kisten auf bis zu 20 verschiedenen Karten und erringe den Sieg!",
+      "sgd_image":"./assets/img/Rectangle_1.png",
+
+      "games_help":"Hilfe"
+    }
+  ],
   "jobs": [
     {
       "no_jobs":"Vielen Dank für dein Interesse ❤, aber leider suchen wir aktuell keine neuen Mitglieder für unser Team."
+    }
+  ],
+  "aboutus": [
+    {
+      "exteam_header":"Unsere Helden!",
+      "exteam_subtitle":"Lang lebe Infinityheroes!"
+    }
+  ],
+  "news": [
+    {
+      "back_home":"Zurück zur Startseite"
     }
   ],
   "footer": [
