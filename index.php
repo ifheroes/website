@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <?php
 
-$website_url = 'http://localhost/website/'; ///PUT A SLASH AFTER URL FOR ASSETS
+$website_url = 'https://'.$_SERVER['HTTP_HOST'].'/website/'; ///PUT A SLASH AFTER URL FOR ASSETS
+
+
 ?>
 <title>infinityheroes.de | Minecraft Server</title>
 
