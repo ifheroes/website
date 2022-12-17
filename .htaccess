@@ -1,0 +1,10 @@
+# Discord redirect
+RedirectPermanent /discord https://discord.gg/4z2UNvK
+
+# Contact redirect
+RedirectPermanent /contact https://infinityheroes.de/?page=contact
+
+# Apply redirect
+RedirectPermanent /join https://infinityheroes.de/?page=jobs
+
+
