@@ -11,8 +11,10 @@
                 <button class="games_button" onClick="window.location.href='#Survival';">FAQ</button>
             </p>
         </div>
-        <div class="col-sm">
-            <img src="<?php echo $data_lang->games[0]->survival_image; ?>">
+        <div class="hide-mobile">
+            <div class="col-sm">
+                <img src="<?php echo $data_lang->games[0]->survival_image; ?>">
+            </div>
         </div>
     </div>
 </div>
@@ -27,8 +29,10 @@
 <!--Gamemodes section /// SGduels-->
 <div class="container">
     <div class="row">
-        <div class="col-sm">
-            <img src="<?php echo $data_lang->games[0]->sgd_image; ?>">
+        <div class="hide-mobile">
+            <div class="col-sm">
+                <img src="<?php echo $data_lang->games[0]->sgd_image; ?>">
+            </div>
         </div>
         <div class="col-sm">
             <h4><?php echo $data_lang->games[0]->sgd_title; ?></h4>

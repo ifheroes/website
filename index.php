@@ -12,10 +12,11 @@ $website_url = 'https://'.$_SERVER['HTTP_HOST'].'/website/'; ///PUT A SLASH AFTE
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
     <link rel="stylesheet" href="<?php echo $website_url; ?>assets/style.css">
+    <link rel="stylesheet" href="<?php echo $website_url; ?>assets/icons.css">
     <link rel="stylesheet" href="<?php echo $website_url; ?>assets/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $website_url; ?>assets/status-indicator.css">
 
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+    
     <script src="<?php echo $website_url; ?>assets/jquery-3.4.1.slim.min.js"></script>
     <script src="<?php echo $website_url; ?>assets/bootstrap.min.js"></script>
     <script src="<?php echo $website_url; ?>assets/all.js"></script>

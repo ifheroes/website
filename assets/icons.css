@@ -1,0 +1,30 @@
+
+
+/* Discord ICONS
+ */
+@media (prefers-color-scheme: dark) {
+    .discord-icon-1 {
+        filter: none;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .discord-icon-1 {
+        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(86deg) brightness(0%) contrast(119%);
+    }
+}
+
+/* 
+Minecraft ICONS */
+
+@media (prefers-color-scheme: dark) {
+    .minecraft-icon-1 {
+        filter: invert(100%) sepia(100%) saturate(206%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .minecraft-icon-1 {
+        filter: none;
+    }
+}
