@@ -228,7 +228,7 @@
                     <p>
 
                     </p>
-                    <p><strong>Kontakt</strong><br />E-Mail: <a href=\"mailto:service@infinityheroes.de\">service@infinityheroes.de</a></p>
+                    <p><strong>Kontakt</strong><br />E-Mail: <a href="mailto:service@infinityheroes.de">service@infinityheroes.de</a></p>
                     <p><br />Verantwortlich f&uuml;r den Inhalt nach &sect; 55 Abs. 2 RStV sind die jeweiligen
                         Moderatoren und Verfasser, von Beitr&auml;gen.</p>
                     <p><br /><strong>Haftung f&uuml;r Inhalte</strong></p>
