@@ -2,6 +2,11 @@
 Entwicklungsbereich für CSS und Styles
 
 
+### Vorausetzungen
++ PHP 7.4 oder höher
++ Sendmail
++ Apache2
+
 # Verwendete Externe Inhalte
 
 - Status-Indicator CSS by https://github.com/tnhu/status-indicator
@@ -10,4 +15,5 @@ Entwicklungsbereich für CSS und Styles
 
 *Bilder*
 
-- 
+- Discord Icon, https://discord.com/branding
+- Stockbilder, https://unsplash.com/
