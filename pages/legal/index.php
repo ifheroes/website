@@ -223,7 +223,7 @@
                     <p><br /><em>Angaben gem&auml;&szlig; &sect; 5 TMG</em></p>
                     <p>&nbsp;</p>
                     <p><strong>Ansprechpartner:</strong></p>
-                    <p>Christopher Paul Oneisz<br />Herrschaftsstra&szlig;e 3/4<br />73087 Bad
+                    <p>Christopher Paul Oneisz<br />Herrschaftsstra&szlig;e<br />73087 Bad
                         Boll<br /><br /><strong>Vertretungsberechtigt:</strong><br />Lukas Jantscher
                     <p>
 
