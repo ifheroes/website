@@ -12,13 +12,8 @@ $page['wave'] = 'pages/wave.php';
 ///JOBS
 $page['jobs'] = 'pages/jobs/jobs-overview.php';
 
-
 ///SUPPORT
 $page['support'] = 'pages/support/index.php';
-
-
-///NAVBARS
-$page['normal'] = 'pages/navbar/normal.php';
 
 ///NEWS
 $page['news'] = 'pages/news/news-overview.php';
@@ -32,7 +27,12 @@ $page['about'] = 'pages/about/about.php';
 ///STATUS
 $page['status'] = 'pages/status/status-overview.php';
 
-///STATUS
+///GAMES
 $page['games'] = 'pages/games/games-overview.php';
+
+///RULES
+$page['rules'] = 'pages/legal/rules.php';
+
+
 
 ?>
