@@ -5,7 +5,6 @@ $page['home'] = 'pages/home.php';
 $page['footer'] = 'pages/footer.php';
 $page['error404'] = 'pages/error404.php';
 $page['legal'] = 'pages/legal/index.php';
-$page['contact'] = 'pages/legal/contact-form.php';
 $page['wave'] = 'pages/wave.php';
 
 
