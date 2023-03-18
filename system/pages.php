@@ -23,8 +23,6 @@ $page['news-th'] = 'pages/news/news-thread-overview.php';
 ///ABOUT
 $page['about'] = 'pages/about/about.php';
 
-///STATUS
-$page['status'] = 'pages/status/status-overview.php';
 
 ///GAMES
 $page['games'] = 'pages/games/games-overview.php';

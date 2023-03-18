@@ -26,7 +26,7 @@
                 <br>
                 <b><a class="link-footer" href="?page=jobs"><?php echo $data_lang->navbar[0]->jobs;?></a></b>
                 <br>
-                <b><a class="link-footer" href="?page=status"><?php echo $data_lang->navbar[0]->status?></a></b>
+                <b><a class="link-footer"  target="_blank" href="https://status.ifheroes.de"><?php echo $data_lang->navbar[0]->status?></a></b>
                 <br>
                 <b><a class="link-footer" href="?page=about"><?php echo $data_lang->navbar[0]->about?></a></b>
                 <br>

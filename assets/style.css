@@ -9,7 +9,7 @@
     /* Background IMAGE */
     @media (prefers-color-scheme: dark) {
         .backgroundUI {
-            background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.747)), url('./img/background-default-2.jpg') no-repeat center center fixed;
+            background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.747)), url('./img/youtube-video-gif2.gif') no-repeat center center fixed;
             background-size: cover;
             color: white;
         }
@@ -17,7 +17,7 @@
 
     @media (prefers-color-scheme: light) {
         .backgroundUI {
-            background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.747)), url('./img/background-default-2.jpg') no-repeat center center fixed;
+            background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.747)), url('./img/youtube-video-gif2.gif') no-repeat center center fixed;
             background-size: cover;
             color: white;
         }
