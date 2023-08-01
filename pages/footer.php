@@ -14,6 +14,8 @@
                 <br>
                 <b><?php echo $data_lang->footer[0]->socials?></b>
                 <br>
+                <b><a class="link-footer" href="https://mastodontech.de/@ifheroesserver" target="_blank"><?php echo $data_lang->socials[0]->mastodon?></a></b>
+                <br>
                 <b><a class="link-footer" href="https://twitter.com/ifheroesserver" target="_blank"><?php echo $data_lang->socials[0]->twitter?></a></b>
                 <br>
                 <b><a class="link-footer" href="https://www.youtube.com/channel/UCavLhm1ZWWMinOcsr6uC_aw" target="_blank"><?php echo $data_lang->socials[0]->youtube?></a></b>

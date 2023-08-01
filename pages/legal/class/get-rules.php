@@ -1,7 +1,7 @@
 <?php
 
 
-$survival = '15';
+$survival = '26';
 $sgduels = '22';
 
 
