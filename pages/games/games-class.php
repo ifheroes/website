@@ -9,7 +9,7 @@
             <p>
                 <button class="games_button" onClick="window.location.href='https://map.ifheroes.de';">Dynmap</button>
                 <button class="games_button" onClick="window.location.href='#Survival';">FAQ</button>
-                <button class="games_button" onClick="window.location.href='?page=rules&game=<?php echo $data_lang->games[0]->survival_title; ?>';">Regeln</button>
+                <button class="games_button" onClick="window.location.href='?page=rules&game=<?php echo $data_lang->games[0]->survival_title; ?>';" id="<?php echo $data_lang->games[0]->survival_title; ?>-rules">Regeln</button>
             </p>
         </div>
         <div class="hide-mobile">
@@ -44,7 +44,7 @@
 
             <p>
                 <button class="games_button" onClick="window.location.href='#SGDuels';">FAQ</button>
-                <button class="games_button" onClick="window.location.href='?page=rules&game=<?php echo $data_lang->games[0]->sgd_title; ?>';">Regeln</button>
+                <button class="games_button" onClick="window.location.href='?page=rules&game=<?php echo $data_lang->games[0]->sgd_title; ?>';" id="<?php echo $data_lang->games[0]->sgd_title; ?>-rules">Regeln</button>
             </p>
         </div>
     </div>

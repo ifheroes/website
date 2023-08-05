@@ -8,8 +8,7 @@
     <br>
         <center>
                 <p>
-                    <h1 class="font-color">So geht's los...</h1>
-                    <text class="font-color">Fragen und Antworten</text>
+                    <h1 class="font-color">Fragen und Antworten</h1>
                 </p>
         </center>
 
