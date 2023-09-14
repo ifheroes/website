@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 
-$website_url = 'https://'.$_SERVER['HTTP_HOST'].'/website/'; ///PUT A SLASH AFTER URL FOR ASSETS
+$website_url = 'http://'.$_SERVER['HTTP_HOST'].'/website/'; ///PUT A SLASH AFTER URL FOR ASSETS
 
 
 ?>
