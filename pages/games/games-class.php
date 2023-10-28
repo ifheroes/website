@@ -1,32 +1,3 @@
-<!--Gamemodes section /// Survival-->
-<div class="container">
-    <div class="row">
-        <div class="col-sm">
-            <h4><?php echo $data_lang->games[0]->survival_title; ?></h4>
-            <br>
-            <?php echo $data_lang->games[0]->survival_text; ?>
-            <br><br>
-            <p>
-                <button class="games_button" onClick="window.location.href='https://map.ifheroes.de';">Dynmap</button>
-                <button class="games_button" onClick="window.location.href='#Survival';">FAQ</button>
-                <button class="games_button" onClick="window.location.href='?page=rules&game=<?php echo $data_lang->games[0]->survival_title; ?>';" id="<?php echo $data_lang->games[0]->survival_title; ?>-rules">Regeln</button>
-            </p>
-        </div>
-        <div class="hide-mobile">
-            <div class="col-sm">
-                <img src="<?php echo $data_lang->games[0]->survival_image; ?>">
-            </div>
-        </div>
-    </div>
-</div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <!--Gamemodes section /// SGduels-->
 <div class="container">
     <div class="row">

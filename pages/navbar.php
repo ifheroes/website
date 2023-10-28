@@ -50,17 +50,22 @@
             <div class="col col-lg-5">
                 <br>
                 <div class="dropdown" style="margin-right: 6px;">
-                    <a href="index.php?page=jobs" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->jobs;?></a>
+                    <a href="index.php#survival" class="link-no-deco" style="margin-right: 12px;">Survival</a>
                     <br>
                     <br>
                 </div>
-                <div class="dropdown" style="margin-right: 6px;">
+<!--                 <div class="dropdown" style="margin-right: 6px;">
                     <a href="index.php?page=games" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->games;?></a>
                     <br>
                     <br>
-                </div>
+                </div> -->
                 <div class="dropdown" style="margin-right: 6px;">
                     <a href="index.php?page=about" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->about;?></a>
+                    <br>
+                    <br>
+                </div>
+                <div class="dropdown" style="margin-right: 6px;">
+                    <a href="index.php?page=jobs" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->jobs;?></a>
                     <br>
                     <br>
                 </div>
