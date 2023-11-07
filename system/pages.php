@@ -1,5 +1,10 @@
 <?php
 
+//// INCLUDE der Klassen
+include('pages/jobs/jobs-class.php');
+
+//// 
+
 $page['navbar'] = 'pages/navbar.php';
 $page['home'] = 'pages/home.php';
 $page['footer'] = 'pages/footer.php';

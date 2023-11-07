@@ -800,8 +800,8 @@
 
         .badge {
             color: rgb(247, 247, 247);
-            background-color: rgb(10 8 10);
-            border: 6px solid rgb(10 8 10);
+            background-color: #38598b;
+            border: 6px solid #38598b;
             border-radius: 5px;
             display: inline-block;
             font-size: small;
@@ -831,8 +831,8 @@
 
         .badge {
             color: rgba(10, 8, 10, 0.849);
-            background-color: #e9ecef;
-            border: 6px solid #e9ecef;
+            background-color: #38598b;
+            border: 6px solid #38598b;
             border-radius: 5px;
             display: inline-block;
             font-size: small;

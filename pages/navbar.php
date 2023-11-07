@@ -13,10 +13,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="?page=jobs"><?php echo $data_lang->navbar[0]->jobs;?><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php#survivalMode">Survival</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="?page=games"><?php echo $data_lang->navbar[0]->games;?><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="?page=jobs"><?php $jobs = new jobs(); echo $jobs->jobMenuVisible();?><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="?page=about"><?php echo $data_lang->navbar[0]->about;?><span class="sr-only">(current)</span></a>
@@ -50,22 +50,17 @@
             <div class="col col-lg-5">
                 <br>
                 <div class="dropdown" style="margin-right: 6px;">
-                    <a href="index.php#survival" class="link-no-deco" style="margin-right: 12px;">Survival</a>
+                    <a href="index.php#survivalMode" class="link-no-deco" style="margin-right: 12px;">Survival</a>
                     <br>
                     <br>
                 </div>
-<!--                 <div class="dropdown" style="margin-right: 6px;">
-                    <a href="index.php?page=games" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->games;?></a>
-                    <br>
-                    <br>
-                </div> -->
                 <div class="dropdown" style="margin-right: 6px;">
                     <a href="index.php?page=about" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->about;?></a>
                     <br>
                     <br>
                 </div>
                 <div class="dropdown" style="margin-right: 6px;">
-                    <a href="index.php?page=jobs" class="link-no-deco" style="margin-right: 12px;"><?php echo $data_lang->navbar[0]->jobs;?></a>
+                    <a href="index.php?page=jobs" class="link-no-deco" style="margin-right: 12px;"><?php $jobs = new jobs(); echo $jobs->jobMenuVisible();?></a>
                     <br>
                     <br>
                 </div>

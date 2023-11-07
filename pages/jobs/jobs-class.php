@@ -1,56 +1,38 @@
+
 <?php
 
-// get content form json file content/job_info.json via system/json_files.php 
-$data = file_get_contents($json['jobs'], true);
-// JSON decode
-$obj = json_decode($data);
+class  jobs{
+    public function jobMenuVisible(){
+        /// hol dir den status aus dem Json und counte wenn null dann nix wenn mehr als null dann etwas
+        /// 
+        // get content form json file content/job_info.json via system/json_files.php 
+        $data = file_get_contents($GLOBALS['json']['jobs'], true);
+        // JSON decode
+        $obj = json_decode($data);
 
-?>
-<center>
-    <h1 class="font-color">Bewerben</h1>
-    <text class="font-color">Komm in unsere Team-Cave 🦇 </text>
-</center>
-<br>
+        /// zähle die einträge in den json file
+        $count = count($obj);
 
-<div class="container">
-    <div class="row">
-        <?php
+        $real_count = $count-1; 
+        /// Setzte den default counter 
+        $default_counter = -1;
+        $number = 0;
+        $alleFalse = false;
 
-        foreach ($obj as $mydata) ///Get data foreach entry in lines etc.
-        {
+        while ($default_counter < $real_count) {
+            $i = $default_counter++;
 
-            if ($mydata->active !== "true") { //Check if desc is online if not show nothing
-                echo "</div></div><center><h5>Vielen Dank für euer Interesse ❤, aber leider suchen wir aktuell keine neuen Mitglieder für unser Team.</h5></center>";
+            $values_active =  $obj[$default_counter]->active;
 
-                break;
-            } else {
-        ?>
-                <!--HTML elements-->
-                <div class="col-sm">
-                    <div class="shadow-box-blog" style="cursor: auto;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $mydata->image_link; ?>') no-repeat center/125% ;">
-                        <h3><?php echo $mydata->title . "<br>"; ?></h3>
-                    </div>
-                    
-                    <br>
-                    <div class="shadow-box-2">
-                        <h5>Deine Aufgabe:</h5>
-                        <?php echo $mydata->text . "<br>"; ?> <!--Print out text form specific line-->
-                        <!--                             <p>
-                                <a href="<?php echo $mydata->link; ?>">Jetzt Bewerben</a>
-                            </p> -->
-                        <br>
-                        <center>
-                            <a href="<?php echo $mydata->link; ?>">
-                                <input type="submit" class="btn-grad-top" value="JETZT MITMACHEN" style="color: white; border: none;">
-                            </a>
-                        </center>
-                    </div>
-                    <br>
-                </div>
-        <?php
+            if($values_active == 'true'){
+                $number++;
 
             }
+            
         }
-        ?>
-     </div>
-</div>
+        if($number > '0'){
+            echo 'Bewerben <span class="badge">NEU</span>'; #todo muss ggf. im nächsten Major release oop
+        }
+    }
+}
+?>
