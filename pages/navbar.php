@@ -22,6 +22,9 @@
                     <a class="nav-link" href="?page=about"><?php echo $data_lang->navbar[0]->about;?><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
+                    <a class="nav-link" href="https://ifheroes.de/discord">Discord<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link" href="https://github.com/ifheroes"><b><?php echo $data_lang->navbar[0]->github;?></b><span class="sr-only">(current)</span></a>
                 </li>                 
             </ul>

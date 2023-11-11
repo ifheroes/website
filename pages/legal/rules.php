@@ -1,7 +1,7 @@
 <?php include('class/bookstack-api-auth.php') ?>
 <?php include('class/get-rules.php') ?>
 
-<div class="container "><a href="?page=games#<?php echo $_GET['game']?>-rules" class="link-no-deco"><b>‹ <?php echo $data_lang->news[0]->back_home;?></b></a><br><br>
+<div class="container "><a href="index.php#<?php echo $_GET['game']?>-rules" class="link-no-deco"><b>‹ <?php echo $data_lang->news[0]->back_home;?></b></a><br><br>
     <div class="center">
         <div class="row">
             <div class="col-sm">

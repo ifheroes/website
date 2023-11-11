@@ -20,7 +20,7 @@
 
         <!-- Zeigt Spieler auf MC -->
         <div class="col-sm">
-            <div class="shadow-box">
+            <div class="shadow-box" onclick="copyToClipboardDomain()">
                 <div class="col-sm">
                     <text class="font-color">
                         <h3><img src="<?php echo $website_url; ?>/assets/icons/minecraft_icon_138374.svg" class="minecraft-icon-1" class="discord-icon-1" width="30px"> <?php echo $data_lang->home[0]->show_mc_title; ?></h3>

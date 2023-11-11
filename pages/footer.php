@@ -26,15 +26,7 @@
                 <br>
                 <b><?php echo $data_lang->footer[0]->quicklinks?></b>
                 <br>
-                <b><a class="link-footer" href="?page=jobs"><?php echo $data_lang->navbar[0]->jobs;?></a></b>
-                <br>
                 <b><a class="link-footer"  target="_blank" href="https://status.ifheroes.de"><?php echo $data_lang->navbar[0]->status?></a></b>
-                <br>
-                <b><a class="link-footer" href="?page=about"><?php echo $data_lang->navbar[0]->about?></a></b>
-                <br>
-                <b><a class="link-footer" href="https://github.com/ifheroes" target="_blank" ><?php echo $data_lang->navbar[0]->github?></a></b>
-                <br>
-                <b><a class="link-footer" href="https://github.com/ifheroes/website"><?php echo $data_lang->footer[0]->contents?></a></b>
             </div>
             <div class="col-sm">
                 <br>
