@@ -1,2 +1,4 @@
 /content/sec/api-key.json
+/content/news/*
+!/content/news/.gitkeep 
 /.DS_Store/

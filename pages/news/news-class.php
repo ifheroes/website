@@ -1,5 +1,5 @@
 <?php
-$location_scandir = "./pages/news/exports/";
+$location_scandir = "./content/news/";
 $files = scandir($location_scandir, SCANDIR_SORT_DESCENDING); ///bekomme alle dateien im Ordner Exports und sortiere alphabetisch
 
 $num_availe = count(scandir($location_scandir))-2; /// prüfung wie viele files sind vorhanden

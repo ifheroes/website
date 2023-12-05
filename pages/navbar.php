@@ -16,7 +16,7 @@
                     <a class="nav-link" href="index.php#survivalMode">Survival</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="?page=jobs"><?php $jobs = new jobs(); echo $jobs->jobMenuVisible();?><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="?page=jobs"><?php $jobs = new jobs(); echo $jobs->jobMenuVisible();?><span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="?page=about"><?php echo $data_lang->navbar[0]->about;?><span class="sr-only">(current)</span></a>
