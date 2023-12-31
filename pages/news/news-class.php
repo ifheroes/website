@@ -17,6 +17,7 @@ if($num_availe == 1){
         <a href="<?php echo "?page=news-th&file=" . $files[0]; ?>">
             <div class="shadow-box-blog" style="cursor:pointer ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $json_scandir['image']; ?>') center scroll ; ">
                 <h4><?php echo $json_scandir['title']; ?></h4>
+                <h5>Weiterlesen</h5>
             </div>
         </a>
         <br>
@@ -38,6 +39,8 @@ if($num_availe == 1){
         <a href="<?php echo "?page=news-th&file=" . $files[0]; ?>">
             <div class="shadow-box-blog" style="cursor:pointer ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $json_scandir['image']; ?>') center scroll ; ">
                 <h4><?php echo $json_scandir['title']; ?></h4>
+                <h5><img src="./assets/icons/link-thin.svg">Weiterlesen</h5>
+
             </div>
         </a>
         <br>
@@ -47,6 +50,8 @@ if($num_availe == 1){
         <a href="<?php echo "?page=news-th&file=" . $files[1]; ?>">
             <div class="shadow-box-blog" style="cursor:pointer ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $json_scandir2['image']; ?>') center scroll ; ">
                 <h4><?php echo $json_scandir2['title']; ?></h4>
+                <h5><img src="./assets/icons/link-thin.svg"> Weiterlesen </h5>
+
             </div>
         </a>
         <br>
