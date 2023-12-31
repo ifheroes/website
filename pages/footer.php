@@ -27,6 +27,8 @@
                 <b><?php echo $data_lang->footer[0]->quicklinks?></b>
                 <br>
                 <b><a class="link-footer"  target="_blank" href="https://status.ifheroes.de"><?php echo $data_lang->navbar[0]->status?></a></b>
+                <br>
+                <b><a class="link-footer"  target="_blank" href="https://open.spotify.com/playlist/1tZH97oP2eWhMtIpbejEnv?si=9c220372192f4a5f">Spotify</a></b>
             </div>
             <div class="col-sm">
                 <br>
@@ -53,13 +55,7 @@
                     </a>
                 </center>
             </div>
-<!--             <div class="col-sm">
-                <center>
-                    <a class="link-footer" href="?page=legal&terms">
-                        <?php echo $data_lang->footer[0]->terms;?>
-                    </a>
-                </center>
-            </div> -->
+
             <div class="col-sm">
                 <center>
                     <a class="link-footer" href="?page=legal&privacy">
@@ -73,33 +69,6 @@
     <br>
 </footer>
 
-<link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css" />
-<script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>
-<script>
-    window.addEventListener("load", function() {
-        window.wpcc.init({
-            "colors": {
-                "popup": {
-                    "background": "#f6f6f6",
-                    "text": "#000000",
-                    "border": "#555555"
-                },
-                "button": {
-                    "background": "#1E90FF",
-                    "text": "#f6f6f6"
-                }
-            },
-            "position": "bottom",
-            "corners": "large",
-            "padding": "large",
-            "margin": "large",
-            "fontsize": "large",
-            "content": {
-                "href": "?page=legal&amp;privacy",
-                "message": "Diese Webseite benutzt Cookies um Nutzern das bestmögliche erlebnis zu bieten.",
-                "link": "Datenschutz",
-                "button": "Ich stimme zu!"
-            }
-        })
-    });
-</script>
+
+<!--cookie bot-->
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="10ec7fa6-f873-4fae-a8f5-7076f0efece4" data-blockingmode="auto" type="text/javascript"></script>

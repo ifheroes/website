@@ -9,6 +9,18 @@ if (preg_match($pattern, $string, $matches)) {
     $datum = $matches[1];
         list($monat, $tag, $jahr) = explode('-', $datum);
         $europaeischesDatum = $tag . '.' . $monat . '.' . $jahr;
+
+        $yourTextWithLinks = $json_thread['text'];
+        $text = strip_tags($yourTextWithLinks);
+        
+        function displayTextWithLinks($s) {
+          return preg_replace('@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?)?)@', '<a href="$1" target="_blank">$1</a>', $s);
+        }
+        
+        $text = displayTextWithLinks($text);
+
+
+
 } else {
     echo "Kein Datum im angegebenen Format gefunden.";
 }
@@ -27,7 +39,7 @@ if (preg_match($pattern, $string, $matches)) {
 
             <p>
             <div class="shadow-box-2">
-                <?php echo $json_thread['text'] . "<br>"; ?>
+                <?php echo  $text . "<br>"; ?>
                 <br>
                 Published: <b><?php echo $europaeischesDatum; ?></b>
             </div>

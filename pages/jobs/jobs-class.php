@@ -31,7 +31,7 @@ class  jobs{
             
         }
         if($number > '0'){
-            echo 'Bewerben <span class="badge" style="color: white;">NEU</span>'; #todo muss ggf. im nächsten Major release oop
+            return true;
         }
     }
 }
