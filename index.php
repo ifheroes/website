@@ -19,9 +19,7 @@ $website_url = 'http://'.$_SERVER['HTTP_HOST'].'/website/'; ///PUT A SLASH AFTER
     
     <script src="<?php echo $website_url; ?>assets/jquery-3.4.1.slim.min.js"></script>
     <script src="<?php echo $website_url; ?>assets/bootstrap.min.js"></script>
-    <script src="<?php echo $website_url; ?>assets/all.js"></script>
-    <script src="<?php echo $website_url; ?>assets/jquery.min.js"></script>
-    <script src="<?php echo $website_url; ?>assets/clipboard.min.js"></script>
+    <script src="<?php echo $website_url; ?>assets/copy.js"></script>
 
     <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
     <link rel="shortcut icon" type="image/png" href="assets/img/server-icon.png" sizes="96x96">

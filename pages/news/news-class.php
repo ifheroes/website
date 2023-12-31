@@ -1,34 +1,61 @@
 <?php
-$location_scandir = "./pages/news/exports/";
+$location_scandir = "./content/news/";
 $files = scandir($location_scandir, SCANDIR_SORT_DESCENDING); ///bekomme alle dateien im Ordner Exports und sortiere alphabetisch
 
-$n = '0'; ///definiere einen counter und setzte diesen auf 0 
-
-while ($n < 2) { /// währen die Variable "n" kleiner als 2 ist gebe die Json Infos aus
-    $content = file_get_contents($location_scandir . $files[$n]); /// bekomme alle inhalte von files, oben und setzte diese in einen Counter
-
-    $files_url = $files[$n]; /// Definiert eine Variable für eine URL  die nachher auf files verweist
+$num_availe = count(scandir($location_scandir))-2; /// prüfung wie viele files sind vorhanden
 
 
-    $n++; /// füge dem counter +1 hinzu bei jedem durchlauf der while schleife
-    $json_scandir = json_decode($content, true); /// decode json datei
+if($num_availe == 1){
+    /* echo file_get_contents($location_scandir.$files[0]); */
+    $json_scandir = json_decode(file_get_contents($location_scandir.$files[0]), true);
 
-?>
+    ?>
 
     <!--Ausgabe der Informationen in HTML Layout-->
 
     <div class="col-sm">
-        <a href="<?php echo "?page=news-th&file=" . $files_url; ?>">
+        <a href="<?php echo "?page=news-th&file=" . $files[0]; ?>">
             <div class="shadow-box-blog" style="cursor:pointer ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $json_scandir['image']; ?>') center scroll ; ">
                 <h4><?php echo $json_scandir['title']; ?></h4>
+                <h5>Weiterlesen</h5>
+            </div>
+        </a>
+        <br>
+    </div>
+<?php
+
+
+} elseif($num_availe == 0){
+//// anmerkung zum Discord für news und mehr und weiter zur Status seite #todo
+} elseif ($num_availe >1){
+    $json_scandir = json_decode(file_get_contents($location_scandir.$files[0]), true);
+    $json_scandir2 = json_decode(file_get_contents($location_scandir.$files[1]), true);
+
+    ?>
+
+    <!--Ausgabe der Informationen in HTML Layout-->
+
+    <div class="col-sm">
+        <a href="<?php echo "?page=news-th&file=" . $files[0]; ?>">
+            <div class="shadow-box-blog" style="cursor:pointer ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $json_scandir['image']; ?>') center scroll ; ">
+                <h4><?php echo $json_scandir['title']; ?></h4>
+                <h5><img src="./assets/icons/link-thin.svg">Weiterlesen</h5>
+
             </div>
         </a>
         <br>
     </div>
 
+    <div class="col-sm">
+        <a href="<?php echo "?page=news-th&file=" . $files[1]; ?>">
+            <div class="shadow-box-blog" style="cursor:pointer ;background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('<?php echo $json_scandir2['image']; ?>') center scroll ; ">
+                <h4><?php echo $json_scandir2['title']; ?></h4>
+                <h5><img src="./assets/icons/link-thin.svg"> Weiterlesen </h5>
+
+            </div>
+        </a>
+        <br>
+    </div>
 <?php
 
-
-} ///ende der schleife
-
-?>
+}

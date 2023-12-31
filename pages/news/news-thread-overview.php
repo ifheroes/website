@@ -1,9 +1,33 @@
 <?php
 
 include('news-thread.php');
+
+$string = $_GET['file'];
+$pattern = '/(\d{2}-\d{2}-\d{4})/';
+
+if (preg_match($pattern, $string, $matches)) {
+    $datum = $matches[1];
+        list($monat, $tag, $jahr) = explode('-', $datum);
+        $europaeischesDatum = $tag . '.' . $monat . '.' . $jahr;
+
+        $yourTextWithLinks = $json_thread['text'];
+        $text = strip_tags($yourTextWithLinks);
+        
+        function displayTextWithLinks($s) {
+          return preg_replace('@(https?://([-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?)?)@', '<a href="$1" target="_blank">$1</a>', $s);
+        }
+        
+        $text = displayTextWithLinks($text);
+
+
+
+} else {
+    echo "Kein Datum im angegebenen Format gefunden.";
+}
+
 ?>
 
-<div class="container"><a href="./#updates" class="link-no-deco"><b>‹ <?php echo $data_lang->news[0]->back_home;?></b></a>
+<div class="container"><a href="./#updates" class="link-no-deco"><b>‹ <?php echo $data_lang->news[0]->back_home; ?></b></a>
     <div class="row">
         <div class="col-sm">
             <p>
@@ -15,7 +39,9 @@ include('news-thread.php');
 
             <p>
             <div class="shadow-box-2">
-                <?php echo $json_thread['text'] . "<br>"; ?>
+                <?php echo  $text . "<br>"; ?>
+                <br>
+                Published: <b><?php echo $europaeischesDatum; ?></b>
             </div>
             </p>
 
