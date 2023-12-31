@@ -3,7 +3,7 @@ Entwicklungsbereich für CSS und Styles
 
 
 ### Vorausetzungen
-+ PHP 7.4 oder höher
++ PHP 8 oder höher
 + Sendmail
 + Apache2
 
