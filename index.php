@@ -3,6 +3,10 @@
 
 $website_url = 'http://'.$_SERVER['HTTP_HOST'].'/website/'; ///PUT A SLASH AFTER URL FOR ASSETS
 
+/// Import des backends
+include('backend/home.class.php');
+
+
 
 ?>
 <title>infinityheroes.de | Minecraft Server</title>

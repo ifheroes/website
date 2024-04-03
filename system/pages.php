@@ -6,7 +6,7 @@ include('pages/jobs/jobs-class.php');
 //// 
 
 $page['navbar'] = 'pages/navbar.php';
-$page['home'] = 'pages/home.php';
+$page['home'] = 'frontend/home.php';
 $page['footer'] = 'pages/footer.php';
 $page['error404'] = 'pages/error404.php';
 $page['legal'] = 'pages/legal/index.php';

@@ -1,47 +1,25 @@
-<!--START-->
-<br>
-<br>
-<br> <br>
-<br>
+<div style="margin-bottom: 160px;"></div>
 <div class="container ">
-    <br>
-    <br>
-
-
-    <br>
-    <br>
-
-    <?php include('pages/home/online_players.php'); //import online players 
-    ?>
+    <?php include('pages/home/online_players.php');?>
 
 
     <center>
         </h5>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+    <div style="margin-bottom: 40px;"></div>
         <a href="#start" class="link-no-deco">
-            <h6><?php echo $data_lang->home[0]->Arrow_animation; ///get data from lang.json in index
-                ?></h6>
+            <h6><?php echo $data_lang->home[0]->Arrow_animation;?></h6>
             <br> <br>
-
-
-
             <div class="bounce">
                 <img src="<?php echo $website_url; ?>/assets/img/arrow-down.svg" width="30px">
             </div>
         </a>
     </center>
     <br>
-    <br> <br>
-    <br>
     <br>
 
 </div>
-</div>
+
 </div>
 
 
@@ -84,8 +62,7 @@
 </div>
 
 
-<br>
-<br>
+<div style="margin-bottom: 40px;"></div>
 
 <!-- FAQ Übersicht allgemein -->
 <?php
@@ -104,8 +81,8 @@ $count = count($obj);
     <div class="row">
         <div class="col-sm">
             <center>
-                <br>
-                <br>
+            <div style="margin-bottom: 40px;"></div>
+
                 <h3><?php echo $data_lang->home[0]->FAQ_main; ///get data from lang.json in index
                     ?></h3>
             </center>
@@ -130,8 +107,8 @@ $count = count($obj);
             ?>
         </div>
     </div>
-    <br>
-    <br>
+    <div style="margin-bottom: 40px;"></div>
+
 
     <!-- SURVIVAL AREA-->
     <center>
