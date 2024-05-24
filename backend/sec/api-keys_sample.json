@@ -1,0 +1,16 @@
+{
+    "bookstack": [
+        {
+            "token": "<your token here>",
+            "key": "<your key here>"
+        }
+        
+    ],
+    "news": [
+        {
+            "token": "<your token here>",
+            "key": "<your key here>"
+        }
+        
+    ]
+}
