@@ -1,6 +1,6 @@
 <?php
 
-require('./vendor/Parsedown.php');
+require('vendor/Parsedown.php');
 
 class markdown
 {
@@ -17,6 +17,13 @@ class markdown
         $parsedown = new Parsedown();
 
         return $parsedown->text($md_file);
+    }
+
+    function markdownPrinterAPI($api_result){
+        $parsedown = new Parsedown();
+
+        return $parsedown->text($api_result);
+        
     }
 }
 

@@ -5,8 +5,16 @@ class apiHandler
 
     private $token;
     private $api_key;
+
+    # vars for content
+
     public $users_online;
     public $invite_url;
+    public $news_title;
+    public $news_text;
+    public $news_image;
+    public $news_date;
+    public $news_file_id;
 
 
     public function getKeyFile($service_name)
@@ -52,7 +60,8 @@ class apiHandler
         echo $page['html'];
     }
 
-    public function apiGetNews($id)
+    # function to get the news by id via api
+    public function apiGetNewsLatest($id)
     {
 
         #connect to api
@@ -62,7 +71,7 @@ class apiHandler
 
 
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, 'https://api.ifheroes.de/v1/news/');
+        curl_setopt($curl, CURLOPT_URL, 'http://localhost/');
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         $result = curl_exec($curl);
@@ -70,7 +79,11 @@ class apiHandler
 
         $news = json_decode($result, true);
 
-        echo $news[$id]['path'];
+        $this->news_title = $news[$id]['title'];
+        $this->news_text = $news[$id]['text'];
+        $this->news_image = $news[$id]['image'];
+        $this->news_date = $news[$id]['date'];
+        $this->news_file_id = $news[$id]['file_id'];
     }
 
 
@@ -92,8 +105,8 @@ class apiHandler
 }
 
 
-$apiHandler = new apiHandler();
+/* $apiHandler = new apiHandler();
 $apiHandler->apiGetDiscordServer();
 
 // Gib die invite_url aus
-echo $apiHandler->users_online;
+echo $apiHandler->users_online; */
