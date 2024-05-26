@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 h2,
 h3,
@@ -48,8 +58,24 @@ nav ul li a {
     color: #fff6f6;
     padding: 10px 10px;
     border-radius: 8px;
+    transition: 0.3s;
 }
 
+nav ul li a:hover {
+    text-decoration: none;
+    color: #d1d1d1;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #F3F3F3;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 h1 {
     text-decoration: none;
@@ -73,7 +99,7 @@ small {
 }
 
 .background {
-    background: linear-gradient(180deg, rgba(47, 27, 65, 0.89) 0%, #808080d3 100%), url('http://localhost/website/assets/img/background.png') no-repeat center center/cover;
+    background: linear-gradient(180deg, rgba(47, 27, 65, 0.89) 0%, #808080d3 100%), url('../assets/img/background.png') no-repeat center center/cover;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -85,6 +111,7 @@ small {
 }
 
 .primary_newsBox {
+    margin-top: 100%;
     border: 20px solid transparent;
     border-radius: 11px;
     background-color: white;

@@ -71,7 +71,7 @@ class apiHandler
 
 
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, 'http://localhost/');
+        curl_setopt($curl, CURLOPT_URL, 'https://api.ifheroes.de/v1/news/');
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         $result = curl_exec($curl);
