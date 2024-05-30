@@ -6,3 +6,4 @@ frontend/markdown/privacy.md
 backend/sec/api-keys.json
 frontend/markdown/impressum.md
 .DS_Store
+frontend/test.html

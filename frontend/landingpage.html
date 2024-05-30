@@ -1,4 +1,10 @@
 <link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/mobile-style.css">
+<link rel="stylesheet" href="../assets/bootstrap.min.css">
+<link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -6,54 +12,109 @@
     <div class="background">
         <br>
         <center>
-            <nav>
-                <br>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">STATS</a></li>
-                    <li><a href="#">SUPPORT</a></li>
-                    <li><a href="#">DISCORD</a></li>
-                </ul>
-                <br>
-            </nav>
+            <input type="checkbox" id="toggle" style="display:none;">
+
+            <hide class="mobile">
+                <nav>
+                    <label for="toggle">
+                        <span class="material-icons-round" style="font-size: 50px;">
+                            menu
+                        </span>
+                        <br>
+                        <b>Menü</b>
+                    </label>
+                </nav>
+            </hide>
+
+            <div class="burger-menu">
+                <nav>
+                    <br>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">STATS</a></li>
+                        <li><a href="#">SUPPORT</a></li>
+                        <li><a href="#">DISCORD</a></li>
+                    </ul>
+                    <br>
+                </nav>
+            </div>
             <br>
-            <h1>INFNITY <img
-                    src="https://cdn.discordapp.com/attachments/876387207458455585/1244056036709629984/ifh_infinite_-_Kopie.png?ex=6653b8f8&is=66526778&hm=c22d482d0e8310fdfa37bf127c0dd94a83cae02c2b734e2dcd1bf5d643996dbc"
-                    width="120" height="80"> HEROES</h1>
-            <h2>Undiscoverd lands and new worlds!</h2>
+            <hide class="desktop">
+                <h1 class="title">INFNITY <img src="../assets/img/logo_mediakit_normal.png" width="120" height="80">
+                    HEROES
+                </h1>
+                <h2 class="subtitle">Undiscoverd lands and new worlds!</h2>
+            </hide>
+            <hide class="mobile">
+                <img src="../assets/img/logo_mediakit_normal.png" width="120" height="80">
+                <h1 class="title">INFNITYHEROES
+            </hide>
         </center>
     </div>
 
+    <div class=" white_container">
+        <br>
+        <center>
 
-
-    <div class="container">
-        <div class="item"></div>
-        <div class="item">
             <div class="primary_newsBox">
-                <img src="http://localhost/website/assets/img/background.png" alt="Bildbeschreibung">
+                <img src="https://media.discordapp.net/attachments/876387207458455585/937400679327203328/2020-07-21_08.49.02.png?ex=665a0a6a&is=6658b8ea&hm=32968c84b2b93346f2fc2950fcba7170f796fabaa00bcfe5a371428180f242e1&=&format=webp&quality=lossless&width=687&height=363"
+                    alt="Bildbeschreibung">
             </div>
-            <h1>Test</h1>
-            <text>Test 13weosfihsdiofh9ruoewqf</text>
-
+            <br>
+            <h3><b>Hero Contest</b></h3>
+            <text>This is a test news Post dummy</text>
+            <br>
             <small>23-3-2024</small>
-        </div>
-        <div class="item"></div>
-        <div class="item">
-            <div class="normal_newsBox"></div>
-            <h1>Test</h1>
-        </div>
-        <div class="item">
-            <div class="normal_newsBox"></div>
-            <h1>Test</h1>
-        </div>
-        <div class="item">
-            <div class="normal_newsBox"></div>
-            <h1>Test</h1>
+            <br><br><br>
+        </center>
+
+        <center>
+            <h1 class="title" style="color: black;">Mehr News</h1>
+        </center>
+        <br><br>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm">
+                    <div class="second_newsBox">
+                        <img src="https://media.discordapp.net/attachments/876387207458455585/939576593616105572/2019-04-19_14.05.36.png?ex=66596324&is=665811a4&hm=44fce62899c67537caedbdeecce91de362baafa90bc25768b68835596f0b601d&=&format=webp&quality=lossless&width=687&height=363"
+                            alt="Bildbeschreibung">
+                    </div>
+                    <p>
+                    <h3>lol</h3>
+                    <text>This is a test news Post dummy</text>
+                    <br>
+                    <small>23-3-2024</small>
+                    </p>
+                </div>
+
+                <div class="col-sm">
+                    <div class="second_newsBox">
+                        <img src="https://media.discordapp.net/attachments/876387207458455585/937400679327203328/2020-07-21_08.49.02.png?ex=665a0a6a&is=6658b8ea&hm=32968c84b2b93346f2fc2950fcba7170f796fabaa00bcfe5a371428180f242e1&=&format=webp&quality=lossless&width=687&height=363"
+                            alt="Bildbeschreibung">
+                    </div>
+                    <p>
+                    <h3>Hero Contest</h3>
+                    <text>This is a test news Post dummy</text>
+                    <br>
+                    <small>23-3-2024</small>
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <div class="second_newsBox">
+                        <img src="https://media.discordapp.net/attachments/876387207458455585/883420460098941009/2016-10-07_18.38.13.png?ex=665a18ea&is=6658c76a&hm=f8c20b39e272cbf6438d30bbf15604d1d1081616e49c20b174efad5b19dc32fa&=&format=webp&quality=lossless&width=687&height=386"
+                            alt="Bildbeschreibung">
+                    </div>
+                    <p>
+                    <h3>lol</h3>
+                    <text>This is a test news Post dummy</text>
+                    <br>
+                    <small>23-3-2024</small>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 
-
 </body>
-<footer>
-    <p>Footer</p>
-</footer>

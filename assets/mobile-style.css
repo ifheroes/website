@@ -1,0 +1,47 @@
+@media screen and (max-width: 990px) {
+
+
+    .white_container {
+        background-color: #fff;
+        margin-top: 10%;
+        padding-top: 10px;
+        padding-bottom: 10%;
+    
+    }
+    h1.title {
+        font-size: 30px;
+    }
+
+    hide.desktop{
+        display: none;
+    }
+    
+}
+
+/* Mobile Navigation */
+@media screen and (max-width: 990px) {
+
+
+    #toggle:checked ~ .burger-menu {
+        display: block;
+    }
+    .burger-menu {
+        display: none;
+    }
+    #toggle:checked ~ .burger-menu {
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
