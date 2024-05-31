@@ -23,6 +23,10 @@ body {
     }
 }
 
+a {
+    text-decoration: none;
+}
+
 h2,
 h3,
 h4,
@@ -90,6 +94,16 @@ h1.title {
     color: #ffffff;
 }
 
+h1.title_support {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: ExtraBold;
+    color: rgb(92, 92, 92);
+}
+
 h2.subtitle {
     color: #ffffff;
     font-family: Montserrat;
@@ -154,7 +168,6 @@ small {
 .support_background_box {
     background: rgba(196, 196, 196, 0.38);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     backdrop-filter: blur(6.8px);
     -webkit-backdrop-filter: blur(6.8px);
@@ -168,4 +181,40 @@ footer {
     background-color: rgb(241, 241, 241);
     background: linear-gradient(to top, #f4e9fee2 0%, white 100%);
     color: #494949;
+}
+
+.icon {
+    color: rgb(92, 92, 92);
+    font-size: 100px;
+}
+
+
+
+.button {
+    background: #eb2c6c;
+    border: 1px solid #eb2c6c;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-style: ExtraBold;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    max-width: fit-content;
+    margin: 10%;
+    padding: 2%;
+}
+
+.button_thread {
+    background: #2f1b41;
+    border: 1px solid #2f1b41;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-style: Bold;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    margin: 5%;
+    padding: 2%;
 }
