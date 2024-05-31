@@ -7,7 +7,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, rgba(47, 27, 65, 0.89) 0%, #808080d3 100%), url('../assets/img/background.png') no-repeat no-repeat center center/cover;
+    background: linear-gradient(180deg, #2f1b41e3 0%, #808080d3 100%), url('../assets/img/background.png') no-repeat no-repeat center center/cover;
     background-size: cover;
     background-position: center;
 }
@@ -115,7 +115,6 @@ small {
     /* margin-top: 50%; */
     border: 4px solid transparent;
     border-radius: 26px;
-    background-color: rgb(255, 255, 255);
     max-width: 100%;
 
 }
@@ -137,4 +136,36 @@ small {
     padding-top: 5%;
     padding-bottom: 10%;
 
+}
+
+.news_background_box {
+    background: rgba(196, 196, 196, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    max-width: 40%;
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    padding-top: 50px;
+    margin-bottom: 20px;
+    padding: 2%;
+}
+
+.support_background_box {
+    background: rgba(196, 196, 196, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    padding-top: 50px;
+    margin-bottom: 20px;
+    padding: 2%;
+}
+
+footer {
+    background-color: rgb(241, 241, 241);
+    background: linear-gradient(to top, #f4e9fee2 0%, white 100%);
+    color: #494949;
 }

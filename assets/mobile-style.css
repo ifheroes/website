@@ -2,7 +2,7 @@
 
 
     .white_container {
-        background-color: #fff;
+        background-color: #ffffff;
         margin-top: 10%;
         padding-top: 10px;
         padding-bottom: 10%;
@@ -43,5 +43,11 @@
     nav ul li {
         display: block;
         margin-bottom: 10px;
+    }
+
+    .news_background_box {
+        max-width: 100%;
+        margin: 2%;
+
     }
 }
