@@ -15,16 +15,17 @@ class apiHandler
     public $news_image;
     public $news_date;
     public $news_file_id;
+    public $bookstack_book_content;
 
 
     public function getKeyFile($service_name)
     {
         # general request to key file
 
-        // get /sec/api-key.json
-        $data = file_get_contents('./sec/api-keys.json', true);
+        #get /sec/api-key.json
+        $data = file_get_contents('../backend/sec/api-keys.json', true);
 
-        // JSON decode
+        #JSON decode
         $obj = json_decode($data);
 
         $this->token = $obj->$service_name[0]->token;
@@ -47,7 +48,7 @@ class apiHandler
 
 
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, 'https://wiki.ifheroes.de/api/pages/26');
+        curl_setopt($curl, CURLOPT_URL, 'https://wiki.ifheroes.de/api/pages/'.$id);
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         $result = curl_exec($curl);
@@ -60,10 +61,35 @@ class apiHandler
         echo $page['html'];
     }
 
+    public function apiGetBookstackBook($id)
+    {
+        # request api key
+        echo $this->getKeyFile('bookstack');
+
+        $token = $this->token;
+        $api_key = $this->api_key;
+
+        #connect to api
+        $headers = array(
+            "Authorization: Token " . $token . ":" . $api_key . "",
+            "Content-Type: application/json"
+        );
+
+
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, 'https://wiki.ifheroes.de/api/books/'.$id);
+        curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        $result = curl_exec($curl);
+        curl_close($curl);
+
+        # get the content and print
+        $this->bookstack_book_content = $content = json_decode($result, true);
+    }
+
     # function to get the news by id via api
     public function apiGetNewsLatest($id)
     {
-
         #connect to api
         $headers = array(
             "Content-Type: application/json"
