@@ -6,13 +6,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
-                        <b>Synhost</b>
+                        <a href="https://synhost.de">
+                            <b>Synhost</b>
+                        </a>
                     </div>
                     <div class="col-sm">
-                        <b>Impressum</b>
+                        <a href="http://localhost/website/index.php?pages=impressum">
+                            <b>Impressum</b>
+                        </a>
                     </div>
                     <div class="col-sm">
-                        <b>Datenschutz</b>
+                        <a href="http://localhost/website/index.php?pages=privacy">
+                            <b>Datenschutz</b>
+                        </a>
                     </div>
                 </div>
             </div>

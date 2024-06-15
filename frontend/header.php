@@ -20,7 +20,7 @@
                     <br>
                     <ul>
                         <li><a href="index.php">HOME</a></li>
-                        <li><a href="#">SUPPORT</a></li>
+                        <li><a target="_blank" href="https://wiki.ifheroes.de/shelves/support">SUPPORT</a></li>
                         <li><a href="https://ifheroes.de/discord">DISCORD</a></li>
                     </ul>
                     <br>
