@@ -23,7 +23,7 @@ class apiHandler
         # general request to key file
 
         #get /sec/api-key.json
-        $data = file_get_contents('../backend/sec/api-keys.json', true);
+        $data = file_get_contents('./backend/sec/api-keys.json', true);
 
         #JSON decode
         $obj = json_decode($data);

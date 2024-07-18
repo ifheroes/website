@@ -11,12 +11,12 @@
                         </a>
                     </div>
                     <div class="col-sm">
-                        <a href="http://localhost/website/index.php?pages=impressum">
+                        <a href="http://localhost/index.php?pages=impressum">
                             <b>Impressum</b>
                         </a>
                     </div>
                     <div class="col-sm">
-                        <a href="http://localhost/website/index.php?pages=privacy">
+                        <a href="http://localhost/index.php?pages=privacy">
                             <b>Datenschutz</b>
                         </a>
                     </div>
