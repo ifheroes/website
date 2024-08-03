@@ -24,14 +24,14 @@
                 <div class="col-sm">
                     <div class="support_background_box">
                         <br>
-                        <h1 class="title_support"><b>Allgemein</b></h3>
+                        <h1 class="title_support"><b>Allgemein</b></h3><br>
                             <?php
                             $requested_book = '12';
                             $apiHandler->apiGetBookstackBook($requested_book);
                             $bookstack->getSupportThreads($apiHandler->bookstack_book_content, 4);
                             ?>
                             <br>
-                            <form action="support/support-threads.php" method="post">
+                            <form action="?support-threads" method="post">
                                 <button class="button_thread"><b>Mehr Artikel...</b></button>
                                 <?php $_POST['id'] = $requested_book; ?>
                             </form>
@@ -41,14 +41,14 @@
                     <div class="support_background_box">
                         <br>
 
-                        <h1 class="title_support"><b>Survival</b></h3>
+                        <h1 class="title_support"><b>Survival</b></h3><br>
                             <?php
                             $requested_book = '7';
                             $apiHandler->apiGetBookstackBook($requested_book);
                             $bookstack->getSupportThreads($apiHandler->bookstack_book_content, 4);
                             ?>
                             <br>
-                            <form action="support/support-threads.php" method="post">
+                            <form action="?support-threads" method="post">
                                 <button class="button_thread"><b>Mehr Artikel...</b></button>
                                 <?php $_POST['id'] = $requested_book; ?>
                             </form>

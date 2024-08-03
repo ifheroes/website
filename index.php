@@ -32,6 +32,12 @@ if (isset($_GET['thread'])) {
 } elseif (isset($_GET['support'])) {
     include('./frontend/support/support.php');
 
+} elseif (isset($_GET['support-thread'])) {
+    include('./frontend/support/support-thread.php');
+
+}elseif (isset($_GET['support-threads'])) {
+    include('./frontend/support/support-threads.php');
+
 } else {
     include('./frontend/news-overview.php');
 }

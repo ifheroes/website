@@ -1,67 +1,13 @@
 <?php
 
-include('../backend/apiHandler.php');
-include('../backend/markdownHandler.php');
-include('../backend/bookstack.php');
+include('./backend/apiHandler.php');
+include('./backend/markdownHandler.php');
+include('./backend/bookstack.php');
 
 # get the support threads from bookstack support portal
 $apiHandler = new apiHandler();
 $bookstack = new bookstack();
 ?>
-
-<link rel="stylesheet" href="../assets/style.css">
-<link rel="stylesheet" href="../assets/mobile-style.css">
-<link rel="stylesheet" href="../assets/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-<body>
-    <div class="background">
-        <br>
-        <center>
-            <input type="checkbox" id="toggle" style="display:none;">
-
-            <hide class="mobile">
-                <nav>
-                    <label for="toggle">
-                        <span class="material-icons-round" style="font-size: 50px;">
-                            menu
-                        </span>
-                        <br>
-                        <b>Menü</b>
-                    </label>
-                </nav>
-            </hide>
-
-            <div class="burger-menu">
-                <nav>
-                    <br>
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">STATS</a></li>
-                        <li><a href="#">SUPPORT</a></li>
-                        <li><a href="#">DISCORD</a></li>
-                    </ul>
-                    <br>
-                </nav>
-            </div>
-            <br>
-            <hide class="desktop">
-                <h1 class="title">INFNITY <img src="../assets/img/logo_mediakit_normal.png" width="120" height="80">
-                    HEROES
-                </h1>
-                <h2 class="subtitle">Undiscoverd lands and new worlds!</h2>
-            </hide>
-            <hide class="mobile">
-                <img src="../assets/img/logo_mediakit_normal.png" width="120" height="80">
-                <h1 class="title">INFNITYHEROES
-            </hide>
-        </center>
-    </div>
-
-
 
     <div class=" white_container">
         <center>

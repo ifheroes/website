@@ -24,7 +24,7 @@ class bookstack
             $bookstack_book_url =  $bookstack_book_content['contents'][$i]['url'];
             $bookstack_book_updated_at = $bookstack_book_content['contents'][$i]['updated_at'];
 
-            echo '<a href="support-thread.php">'.$bookstack_book_name.'</a><br>';
+            echo '<a href="?support-thread&id='.$bookstack_book_id.'" style="text-decoration: underline;text-decoration-style: dotted;">'.$bookstack_book_name.'</a><br>';
 
             $i++;
         }
