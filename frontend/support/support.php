@@ -31,10 +31,9 @@
                             $bookstack->getSupportThreads($apiHandler->bookstack_book_content, 4);
                             ?>
                             <br>
-                            <form action="?support-threads" method="post">
+                            <a href="?support-threads&id=<?php echo $requested_book;?>" >
                                 <button class="button_thread"><b>Mehr Artikel...</b></button>
-                                <?php $_POST['id'] = $requested_book; ?>
-                            </form>
+                            </a>
                     </div>
                 </div>
                 <div class="col-sm">
@@ -48,9 +47,8 @@
                             $bookstack->getSupportThreads($apiHandler->bookstack_book_content, 4);
                             ?>
                             <br>
-                            <form action="?support-threads" method="post">
+                            <form action="?support-threads&id=<?php echo $requested_book;?>" method="post">
                                 <button class="button_thread"><b>Mehr Artikel...</b></button>
-                                <?php $_POST['id'] = $requested_book; ?>
                             </form>
                     </div>
                 </div>

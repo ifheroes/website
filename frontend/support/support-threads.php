@@ -21,12 +21,10 @@ $bookstack = new bookstack();
                 <div class="col-sm">
                     <div class="support_background_box" id="focus">
                         <br>
-                        <h1 class="title_support"><span class="icon material-symbols-rounded">
-                                help
-                            </span><b>Mehr Beiträge</b></h1>
+                        <h1 class="title_support"><b>Mehr Beiträge</b></h1>
                         <?php
-                        $apiHandler->apiGetBookstackBook($_POST['id']);
-                        $bookstack->getSupportThreads($apiHandler->bookstack_book_content, 100);
+                            $apiHandler->apiGetBookstackBook($_GET['id']);
+                            $bookstack->getSupportThreads($apiHandler->bookstack_book_content, 100);
                         ?>
                     </div>
                 </div>
@@ -55,24 +53,3 @@ $bookstack = new bookstack();
     </div>
 
 </body>
-<footer>
-    <div class="footer">
-        <center>
-            <br>
-            <h4><b>infinityheroes</b></h4>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <b>Synhost</b>
-                    </div>
-                    <div class="col-sm">
-                        <b>Impressum</b>
-                    </div>
-                    <div class="col-sm">
-                        <b>Datenschutz</b>
-                    </div>
-                </div>
-            </div>
-        </center>
-        <br>
-</footer>

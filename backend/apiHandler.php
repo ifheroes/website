@@ -57,7 +57,7 @@ class apiHandler
         # get the content and print
         $page = json_decode($result, true);
 
-        echo $page['name'];
+        echo "<h2><b>".$page['name']."</b></h2>";
         echo $page['html'];
     }
 
