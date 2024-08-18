@@ -16,16 +16,20 @@ $bookstack = new bookstack();
         <br><br>
 
         <div class="container">
+        <a onclick="history.back()" style="cursor: pointer;">
 
+            <h4>
+                <span class="material-symbols-outlined">arrow_back</span><b>Zurück</b>
+            </h4>
+        </a>
             <div class="row">
                 <div class="col-sm">
                     <div class="support_background_box" id="focus">
-                        <br>
                         <h1 class="title_support"><b>Mehr Beiträge</b></h1>
                         <?php
                             $apiHandler->apiGetBookstackBook($_GET['id']);
                             $bookstack->getSupportThreads($apiHandler->bookstack_book_content, 100);
-                        ?>
+                        ?> 
                     </div>
                 </div>
             </div>
@@ -41,9 +45,11 @@ $bookstack = new bookstack();
                                     bei, hier kann dir unser Team schnell und unkompliziert helfen.</text>
                             </div>
                             <div class="col-sm">
-                                <center>
+                            <center>
+                                <a href="https://ifheroes.de/discord">
                                     <div class="button">Discord</div>
-                                </center>
+                                </a>
+                            </center>
                             </div>
                         </div>
                     </div>

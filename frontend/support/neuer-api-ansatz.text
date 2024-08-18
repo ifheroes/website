@@ -1,0 +1,10 @@
+
+Abfrage machen via
+https://wiki.ifheroes.de/api/search?query=[support=Survival]
+
+Dann Beitrag im Backend prüfen ob auf der liste, fall nicht beitrag seite mit beitrag nicht gefunden
+
+
+Client URL: ID des beitrags -> webserver nimmt ID prüft mit liste von API ob drinne
+Client HTML <- Webserver gibt html zurück wenn gefunden, wenn nicht fehler meldung
+https://www.planttext.com/api/plantuml/png/hP8nRy8m48Lt_ueJEmCPCrIWb0eaa4f2bTaaryIgiLFxqfH_ttCSAe7eLWyUxZw_Uq--fIVfg3zhGOeqmbk-WqEFxW8RQMgjJ0ClsWumA6hXE5XOlMuXQx7wy4B8Ygo3J2iq93hMKPNgf26ObNZowBxGpK1wA8lRRj0ekAqgXCL8S6NnDvDScKI8E0tcJwoQCc7gqVFeR_iiokBQMd-JOuDSX7Tdpu5YnteiA0-TGnzi0v_uA7X8OxR0o4OgumceHT3AHp8mC9yc16NRcthit0ebAUJusIE_tnptEwYieM3xT0ac9wNaLob7wfs9Q1RHUz6O-p6AskCKorZwfsX1wM6yEoThvtW9zkYzR53mVmYnv3kir0y0

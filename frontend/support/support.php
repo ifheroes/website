@@ -53,6 +53,27 @@
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-sm">
+                    <div class="support_background_box">
+                        <br>
+                        <h1 class="title_support"><b>SGDuels</b></h3><br>
+                            <?php
+                            $requested_book = '12';
+                            $apiHandler->apiGetBookstackBook($requested_book);
+                            $bookstack->getSupportThreads($apiHandler->bookstack_book_content, 4);
+                            ?>
+                            <br>
+                            <a href="?support-threads&id=<?php echo $requested_book;?>" >
+                                <button class="button_thread"><b>Mehr Artikel...</b></button>
+                            </a>
+                    </div>
+                </div>
+                <div class="col-sm">
+                </div>
+            </div>
+            
             <br><br>
             <div class="row">
                 <div class="col-sm">
