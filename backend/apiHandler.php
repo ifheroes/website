@@ -23,7 +23,7 @@ class apiHandler
         # general request to key file
 
         #get /sec/api-key.json
-        $data = file_get_contents('./backend/sec/api-keys.json', true);
+        $data = file_get_contents('../backend/sec/api-keys.json', true);
 
         #JSON decode
         $obj = json_decode($data);
@@ -59,6 +59,34 @@ class apiHandler
 
         echo "<h2><b>".$page['name']."</b></h2>";
         echo $page['html'];
+    }
+
+    public function apiGetBookstackSupportThread($tag)
+    {
+        # request api key
+        echo $this->getKeyFile('bookstack');
+
+        $token = $this->token;
+        $api_key = $this->api_key;
+
+        #connect to api
+        $headers = array(
+            "Authorization: Token " . $token . ":" . $api_key . "",
+            "Content-Type: application/json"
+        );
+
+
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, 'https://wiki.ifheroes.de/api/search?query='.$tag.']');
+        curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        $result = curl_exec($curl);
+        curl_close($curl);
+
+        # get the content and print
+        $page = json_decode($result, true);
+
+        var_dump($page['data']);
     }
 
     public function apiGetBookstackBook($id)
