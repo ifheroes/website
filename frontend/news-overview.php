@@ -52,7 +52,7 @@ $title4 = $apiHandler->news_title;
                     </span><b><?php echo $title1; ?></b></h3>
                 <text>Die neusten News vom infinityheroes Projekt!</text>
                 <br>
-                <small>23-3-2024</small>
+                <small><?php echo $date1; ?></small>
                 <br><br><br>
         </a>
 </div>

@@ -15,7 +15,6 @@ class apiHandler
     public $news_image;
     public $news_date;
     public $news_file_id;
-    public $bookstack_book_content;
 
 
     public function getKeyFile($service_name)
@@ -32,88 +31,6 @@ class apiHandler
         $this->api_key = $obj->$service_name[0]->key;
     }
 
-    public function apiGetBookstackPage($id)
-    {
-        # request api key
-        echo $this->getKeyFile('bookstack');
-
-        $token = $this->token;
-        $api_key = $this->api_key;
-
-        #connect to api
-        $headers = array(
-            "Authorization: Token " . $token . ":" . $api_key . "",
-            "Content-Type: application/json"
-        );
-
-
-        $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, 'https://wiki.ifheroes.de/api/pages/'.$id);
-        curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-        $result = curl_exec($curl);
-        curl_close($curl);
-
-        # get the content and print
-        $page = json_decode($result, true);
-
-        echo "<h2><b>".$page['name']."</b></h2>";
-        echo $page['html'];
-    }
-
-    public function apiGetBookstackSupportThread($tag)
-    {
-        # request api key
-        echo $this->getKeyFile('bookstack');
-
-        $token = $this->token;
-        $api_key = $this->api_key;
-
-        #connect to api
-        $headers = array(
-            "Authorization: Token " . $token . ":" . $api_key . "",
-            "Content-Type: application/json"
-        );
-
-
-        $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, 'https://wiki.ifheroes.de/api/search?query='.$tag.']');
-        curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-        $result = curl_exec($curl);
-        curl_close($curl);
-
-        # get the content and print
-        $page = json_decode($result, true);
-
-        var_dump($page['data']);
-    }
-
-    public function apiGetBookstackBook($id)
-    {
-        # request api key
-        echo $this->getKeyFile('bookstack');
-
-        $token = $this->token;
-        $api_key = $this->api_key;
-
-        #connect to api
-        $headers = array(
-            "Authorization: Token " . $token . ":" . $api_key . "",
-            "Content-Type: application/json"
-        );
-
-
-        $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, 'https://wiki.ifheroes.de/api/books/'.$id);
-        curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-        $result = curl_exec($curl);
-        curl_close($curl);
-
-        # get the content and print
-        $this->bookstack_book_content = $content = json_decode($result, true);
-    }
 
     # function to get the news by id via api
     public function apiGetNewsLatest($id)

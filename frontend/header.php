@@ -20,7 +20,7 @@
                     <br>
                     <ul>
                         <li><a href="index.php">HOME</a></li>
-                        <li><a href="index.php?support">SUPPORT</a></li>
+                        <li><a href="index.php?pages=support">SUPPORT</a></li>
                         <li><a href="https://ifheroes.de/discord">DISCORD</a></li>
                     </ul>
                     <br>
