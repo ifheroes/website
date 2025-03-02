@@ -45,3 +45,14 @@ include('./frontend/footer.php');
 ?>
 
 
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="10ec7fa6-f873-4fae-a8f5-7076f0efece4"  type="text/javascript"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6E3EWNQC2B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6E3EWNQC2B');
+</script> 
