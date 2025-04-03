@@ -1,83 +1,58 @@
-<!DOCTYPE html>
-<?php
+<link rel="stylesheet" href="./assets/style.css">
+<link rel="stylesheet" href="./assets/mobile-style.css">
+<link rel="stylesheet" href="./assets/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
 
-$website_url = 'http://'.$_SERVER['HTTP_HOST'].'/website/'; ///PUT A SLASH AFTER URL FOR ASSETS
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Infinityheroes.de | Minecraft Server</title>
+
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+<link rel="manifest" href="assets/img/favicons/site.webmanifest">
+
+<body>
+
+<?php 
+
+include('./frontend/header.php');
 
 
+if (isset($_GET['thread'])) {
+    include('./frontend/news-thread.php');
+
+} elseif (isset($_GET['pages'])) {
+    include('./frontend/pages.php');
+
+} elseif (isset($_GET['support'])) {
+    include('./frontend/support/support.php');
+
+} elseif (isset($_GET['support-thread'])) {
+    include('./frontend/support/support-thread.php');
+
+}elseif (isset($_GET['support-threads'])) {
+    include('./frontend/support/support-threads.php');
+
+} else {
+    include('./frontend/news-overview.php');
+}
+include('./frontend/footer.php');
 ?>
-<title>infinityheroes.de | Minecraft Server</title>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-    <link rel="stylesheet" href="<?php echo $website_url; ?>assets/style.css">
-    <link rel="stylesheet" href="<?php echo $website_url; ?>assets/icons.css">
-    <link rel="stylesheet" href="<?php echo $website_url; ?>assets/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo $website_url; ?>assets/status-indicator.css">
-
-    
-    <script src="<?php echo $website_url; ?>assets/jquery-3.4.1.slim.min.js"></script>
-    <script src="<?php echo $website_url; ?>assets/bootstrap.min.js"></script>
-    <script src="<?php echo $website_url; ?>assets/copy.js"></script>
-
-    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
-    <link rel="shortcut icon" type="image/png" href="assets/img/server-icon.png" sizes="96x96">
-</head>
-
-</html>
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://ifheroes.de">
-<meta property="og:title" content="ifheroes.de">
-<meta property="og:description" content="infinityheroes | Minecraft Server">
-<meta property="og:image" content="<?php echo $website_url; ?>assets/img/OG-Type-image.jpg">
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@ifheroesserver">
-<meta name="twitter:creator" content="@ifheroesserver">
-<meta property="twitter:url" content="https://ifheroes.de">
-<meta property="twitter:title" content="infinityheroes | Minecraft Server">
-<meta property="twitter:image" content="<?php echo $website_url; ?>assets/img/OG-Type-image.jpg">
 
 
-<?php
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="10ec7fa6-f873-4fae-a8f5-7076f0efece4"  type="text/javascript"></script>
 
-include('system/pages.php'); /* Alle registrierten PHP dateien */
-include('system/json_files.php'); /* Alle Json Dateien mit Informationen zu webinhalten */
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6E3EWNQC2B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-
-/*Direkter Import der Sprach-Inhalte*/
-
-// get content form json file content/lang.json via system/lang.php 
-$data_lang = json_decode(file_get_contents('content/lang.json', true));
-
-?>
-    <html>
-        <body>
-    <?php
-
-
-    if (isset($_GET['page'])) {
-        if (isset($page[$_GET['page']])) {
-            include($page['navbar']);
-            include($page['wave']);
-            include($page[$_GET['page']]);
-        } else {
-            include($page['navbar']);
-            include($page['wave']);
-            include($page['error404']);
-        }
-    } else {
-        include($page['navbar']);
-        include($page['home']);
-    }
-
-    include($page['footer']);
-
-    ?>
-    </body>
-
-    </html>
+  gtag('config', 'G-6E3EWNQC2B');
+</script> 

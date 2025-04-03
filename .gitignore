@@ -2,3 +2,8 @@
 /content/news/*
 !/content/news/.gitkeep 
 /.DS_Store/
+frontend/markdown/privacy.md
+backend/sec/api-keys.json
+frontend/markdown/impressum.md
+.DS_Store
+frontend/test.html
